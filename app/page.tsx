@@ -115,7 +115,7 @@ export default function HomePage() {
               {/* Portrait Image Container */}
               <div className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-zinc-950 border border-zinc-800/80">
                 <Image
-                  src="/abu-bakar.png"
+                  src="/assets/abu_bakar.jpg"
                   alt="Muhammad Abu Bakar Bilal — AI Systems & Automation Engineer"
                   fill
                   className="object-cover object-top hover:scale-[1.02] transition-transform duration-500"
