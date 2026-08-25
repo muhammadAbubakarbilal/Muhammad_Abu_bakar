@@ -35,8 +35,8 @@ export default function AboutPage() {
           <div className="lg:col-span-4 flex justify-center lg:justify-end">
             <div className="relative w-48 sm:w-56 aspect-[3/4] rounded-2xl overflow-hidden bg-zinc-900 border border-zinc-800 shadow-xl">
               <Image
-                src="/abu-bakar.png"
-                alt="Muhammad Abu Bakar Bilal"
+                src="/abu-bakar.jpg"
+                alt="Muhammad Abu Bakar"
                 fill
                 className="object-cover object-top"
                 priority
