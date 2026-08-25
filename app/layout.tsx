@@ -3,6 +3,7 @@ import './globals.css';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { AiAssistantDrawer } from '@/components/AiAssistantDrawer';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: 'Muhammad Abu Bakar — AI Systems & Automation Engineer',
@@ -33,6 +34,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <AiAssistantDrawer />
+        <Analytics />
       </body>
     </html>
   );
