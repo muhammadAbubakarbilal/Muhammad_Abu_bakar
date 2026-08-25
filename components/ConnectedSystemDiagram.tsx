@@ -21,7 +21,7 @@ interface SystemNode {
   id: string;
   name: string;
   category: 'core' | 'satellite';
-  icon: any;
+  icon: React.ComponentType<{ className?: string }>;
   role: string;
   dataFlow: string;
 }

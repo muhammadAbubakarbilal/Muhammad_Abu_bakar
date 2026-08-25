@@ -23,7 +23,7 @@ interface StageInfo {
   name: string;
   shortLabel: string;
   tier: 'Automated' | 'AI-Assisted' | 'Human';
-  icon: any;
+  icon: React.ComponentType<{ className?: string }>;
   summary: string;
   detail: string;
   payload: string;

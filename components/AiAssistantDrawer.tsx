@@ -6,12 +6,8 @@ import {
   X, 
   Send, 
   Loader2, 
-  Sparkles, 
   ArrowRight,
-  MessageSquare,
-  RefreshCw,
-  User,
-  Zap
+  RefreshCw
 } from 'lucide-react';
 import Link from 'next/link';
 
