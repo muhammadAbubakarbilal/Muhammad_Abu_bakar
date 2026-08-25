@@ -2,77 +2,72 @@ import { GoogleGenAI } from "@google/genai";
 import { NextRequest, NextResponse } from "next/server";
 
 const CANDIDATE_MODELS = [
-  "gemini-2.5-flash",
   "gemini-3.7-flash",
   "gemini-3.1-flash-lite"
 ];
+
+function cleanHumanText(text: string): string {
+  if (!text) return "";
+  return text
+    // Remove markdown headers like ### or ##
+    .replace(/^#{1,6}\s+/gm, '')
+    // Remove bold asterisks like **word** -> word
+    .replace(/\*\*(.*?)\*\*/g, '$1')
+    // Remove single asterisks like *word* -> word
+    .replace(/\*(.*?)\*/g, '$1')
+    // Remove markdown bullet asterisks or dashes at start of line
+    .replace(/^[\*\-]\s+/gm, '• ')
+    // Normalize extra line breaks
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
 
 function generateHeuristicDiagnostic(userText: string): string {
   const lower = userText.toLowerCase();
 
   if (lower.includes("lead") || lower.includes("sales") || lower.includes("follow-up") || lower.includes("crm")) {
-    return `### Diagnostic Assessment: Lead & Sales Pipeline
+    return `When looking at a lead and sales pipeline, the secret is separating what requires real human judgment from what can run on autopilot.
 
-1. **Where Human Judgment Belongs:**
-   • Closing conversations, nuanced pricing negotiations, and relationship building.
+You want your team focused strictly on high-trust work: closing conversations, handling nuanced pricing, and building real relationships.
 
-2. **Where AI Assistance Delivers Leverage:**
-   • Extracting intent and company size from inbound inquiries, drafting tailored response briefings, and scoring lead urgency.
+AI delivers the best leverage in the middle: reading incoming inquiries, qualifying intent, drafting response briefings, and scoring lead urgency so your team walks into every call prepared.
 
-3. **Where Deterministic Automation Fits:**
-   • Sub-2-minute instant intake, auto-updating your CRM (HubSpot/Salesforce), dispatching calendar booking links, and triggering Slack alerts.
+Everything else—instant sub-2-minute intake, updating HubSpot or Salesforce, generating booking links, and triggering team notifications—should be deterministic automation with zero manual copy-pasting.
 
-**Next Diagnostic Question:**
-Where is the biggest point of drop-off right now—is it initial speed to lead, or following up with leads that went cold?`;
+Where is the biggest point of drop-off right now? Is it initial response speed when a lead comes in, or following up after a call?`;
   }
 
   if (lower.includes("onboard") || lower.includes("customer") || lower.includes("client") || lower.includes("intake")) {
-    return `### Diagnostic Assessment: Client Onboarding & Operations
+    return `Onboarding is often where teams waste the most time on duplicate administrative work instead of delivering value.
 
-1. **Where Human Judgment Belongs:**
-   • Welcome strategy calls, reviewing exceptions, and approving scope milestones.
+Human judgment is essential for welcome strategy sessions, reviewing unique scope exceptions, and client relationship management.
 
-2. **Where AI Assistance Delivers Leverage:**
-   • Synthesizing messy client intake responses, extracting data from uploaded PDF/Word contracts, and creating initial project briefs.
+AI can do the heavy lifting on unstructured input: summarizing messy intake forms, extracting structured data from contracts or PDFs, and generating the initial kickoff brief.
 
-3. **Where Deterministic Automation Fits:**
-   • Creating shared workspaces (Notion/Slack/Drive), auto-generating invoices in Stripe/QuickBooks, and triggering milestone check-ins.
+The repetitive plumbing—creating client portals, shared folders, generating initial invoices, and setting up project tracking—should happen automatically the second a contract is signed.
 
-**Next Diagnostic Question:**
-What is the single most repetitive task your team does manually each time a new client signs on?`;
+What is the single most repetitive task your team has to handle manually every time a new client comes on board?`;
   }
 
   if (lower.includes("tool") || lower.includes("software") || lower.includes("portal") || lower.includes("spreadsheet")) {
-    return `### Diagnostic Assessment: Fragmented Tools & Data Silos
+    return `Having data scattered across spreadsheets and multiple tools creates huge operational drag and human error.
 
-1. **Where Human Judgment Belongs:**
-   • High-level operational governance and business logic sign-off.
+Rather than buying more software, the solution is usually connecting what you already have into a clean, unified system.
 
-2. **Where AI Assistance Delivers Leverage:**
-   • Natural language query over internal documents and SOPs (RAG), and reconciling conflicting record formats.
+We typically keep high-level business logic and approval in human hands, use AI to search internal documents or reconcile messy formats, and build fast background integrations to keep your databases in sync automatically.
 
-3. **Where Deterministic Automation Fits:**
-   • Two-way database syncing (e.g. PostgreSQL, Airtable, Google Sheets), scheduled cron pipelines, and unified Next.js internal portals.
-
-**Next Diagnostic Question:**
-How many separate software tools is your team copying data between on a weekly basis?`;
+How many different tools or spreadsheets is your team currently copying data between on a regular basis?`;
   }
 
-  return `### Diagnostic Assessment: Workflow & Systems
+  return `To diagnose this bottleneck properly, I look at workflows through three practical lenses:
 
-To turn this bottleneck into a connected system, we evaluate three distinct layers:
+First, where does human judgment and empathy truly belong? That is where your team should spend 90% of their energy.
 
-1. **Human Judgment (High Trust):**
-   • Preserving your team for empathy, strategy, customer relationships, and critical approvals.
+Second, where can AI give you leverage? Specifically handling messy notes, unstructured inquiries, or drafting initial summaries.
 
-2. **AI-Assisted (Qualitative):**
-   • Extracting unstructured data, summarizing messy notes, and triaging ambiguous inquiries.
+Third, what plumbing can we automate completely? Webhooks, instant database syncing, and scheduled alerts that never require manual copying.
 
-3. **Deterministic Automation (Plumbing):**
-   • Event-driven webhooks, instant database synchronization, notifications, and scheduled tasks.
-
-**Next Step:**
-What specific software or manual spreadsheets are currently involved in this process, and who on your team handles the handoff?`;
+What specific tools or spreadsheets are currently involved in this process, and who on your team is spending the most time moving the data?`;
 }
 
 export async function POST(req: NextRequest) {
@@ -92,7 +87,7 @@ export async function POST(req: NextRequest) {
     // Fallback if API key is not configured in environment
     if (!apiKey) {
       const fallbackReply = generateHeuristicDiagnostic(currentInput);
-      return NextResponse.json({ reply: fallbackReply, grounded: true });
+      return NextResponse.json({ reply: cleanHumanText(fallbackReply) });
     }
 
     const ai = new GoogleGenAI({
@@ -105,35 +100,27 @@ export async function POST(req: NextRequest) {
     });
 
     const systemInstruction = `
-You are the AI Systems & Bottleneck Diagnostic Assistant on the personal studio website of **Muhammad ABU BAKAR** (AI Systems & Automation Engineer / Business Systems Engineer).
+You are the AI Systems & Bottleneck Diagnostic Assistant on Muhammad Abu Bakar's portfolio and business systems studio.
 
-### Core Working Identity & Philosophy:
-- **Central Philosophy:** "I DON'T START WITH THE TECHNOLOGY. I START WITH THE BOTTLENECK."
-- **Key Brand Messages:**
-  - "Businesses don't always need more software. They often need less manual work."
-  - "You bring the bottleneck. I figure out the system."
-  - "AI is not the goal. A better-running business is."
-  - "I find the repetitive, disconnected, slow, and error-prone parts of a business and turn them into connected software, automation, AI systems, and workflows."
+### How to Write (CRITICAL):
+- Write in a natural, authentic, human conversational tone—like an experienced human systems engineer speaking directly to a client over a quick chat.
+- ABSOLUTELY DO NOT use asterisks (**) for bolding. Never write things like "**Where Human Judgment Belongs:**" or "**Next Question:**".
+- DO NOT use markdown headers (no ### or ##).
+- DO NOT use rigid robotic numbered lists or template bullet points.
+- Write in smooth, natural, clean paragraphs with clear spacing between thoughts.
+- Sound like a real person who deeply understands business operations, automation, and software engineering.
 
-### The 3-Tier Framework:
-1. **HUMAN (High Trust & Judgment):** Keep people involved where judgment, relationships, empathy, negotiation, sales closing, or sensitive decisions matter.
-2. **AI-ASSISTED (Probabilistic & Qualitative):** Use AI where inputs are unstructured—summarizing, classifying buyer intent, RAG document search, research, extraction, and drafting.
-3. **AUTOMATED (Deterministic & Fast):** Use traditional code and APIs for predictable plumbing—moving data across CRM/databases, notifications, scheduling, webhook triggers, and audit logging.
+### Muhammad's Philosophy:
+- "I don't start with the technology. I start with the bottleneck."
+- "Businesses don't always need more software. They often need less manual work."
+- "You bring the bottleneck. I figure out the system."
+- "AI is not the goal. A better-running business is."
 
-### What Muhammad Builds:
-1. **Lead & Sales Systems:** Fast lead capture, qualification, CRM sync, dynamic calendar booking, human sales handoff.
-2. **Customer Operations:** Inquiry to onboarding, document intake, task creation, automated delivery tracking.
-3. **AI Chatbots & Assistants:** Grounded 24/7 knowledge assistants, inquiry triage, human escalation.
-4. **Workflow Automation:** Event-driven webhook pipelines, database synchronization, removing duplicate entry.
-5. **Custom Business Software:** Tailored Next.js internal portals, role-based dashboards, PostgreSQL backends.
-6. **AI & Knowledge Systems:** Document intelligence, RAG over internal SOPs/contracts, semantic search.
-
-### Your Diagnostic Behavior:
-- When a user shares an operational challenge, **DIAGNOSE rather than pitch**.
-- Break down where Human Judgment, AI Assistance, and Deterministic Automation belong.
-- Ask 1 sharp follow-up diagnostic question to reveal root friction.
-- **Tone:** Professional, objective, direct, jargon-free, helpful, and grounded. Never use hyperbolic marketing hype like "supercharge" or "revolutionize". Never fabricate client names or fake revenue metrics.
-- Keep responses concise (2 to 4 structured sections or bullet points).
+### How to Answer:
+1. Acknowledge the user's situation thoughtfully in 1-2 conversational sentences.
+2. Break down the system practically: explain what parts should stay strictly human (high-trust closing/strategy), where AI provides genuine leverage (summarizing, qualifying intent, unstructured extraction), and what should be automated with deterministic code (moving data, CRM sync, notifications).
+3. End with one sharp, genuine question to understand where the biggest friction lies.
+4. Keep the entire message between 3 and 5 short, readable paragraphs.
 `;
 
     // Construct conversation history for Gemini
@@ -154,7 +141,6 @@ You are the AI Systems & Bottleneck Diagnostic Assistant on the personal studio 
     let generatedReply: string | null = null;
     let lastError: any = null;
 
-    // Multi-model resilience loop: try candidate models if 503 or transient spikes occur
     for (const modelName of CANDIDATE_MODELS) {
       try {
         const response = await ai.models.generateContent({
@@ -162,17 +148,17 @@ You are the AI Systems & Bottleneck Diagnostic Assistant on the personal studio 
           contents: formattedHistory,
           config: {
             systemInstruction: systemInstruction,
-            temperature: 0.6,
+            temperature: 0.7,
           }
         });
 
         if (response && response.text) {
-          generatedReply = response.text;
+          generatedReply = cleanHumanText(response.text);
           break;
         }
       } catch (err: any) {
         lastError = err;
-        console.warn(`Model ${modelName} encountered error, trying next fallback:`, err?.message || err);
+        console.warn(`Model ${modelName} encountered error:`, err?.message || err);
       }
     }
 
@@ -180,14 +166,13 @@ You are the AI Systems & Bottleneck Diagnostic Assistant on the personal studio 
       return NextResponse.json({ reply: generatedReply });
     }
 
-    // If all models encountered temporary API unavailability or 503 spikes, use heuristic diagnostic
-    console.error("All Gemini models encountered transient issues, using diagnostic fallback. Last error:", lastError);
+    console.error("Gemini API fallback used. Last error:", lastError);
     const intelligentFallback = generateHeuristicDiagnostic(currentInput);
-    return NextResponse.json({ reply: intelligentFallback });
+    return NextResponse.json({ reply: cleanHumanText(intelligentFallback) });
 
   } catch (error: any) {
     console.error("AI Assistant Route General Exception:", error);
-    const defaultResponse = "To diagnose your operational workflow: What is the main process currently creating delays, repetitive data entry, or friction between your team and your customers?";
+    const defaultResponse = "When looking at any operational workflow, the key is pinpointing where your team is losing time to manual copying or delays.\n\nWhat specific tools or spreadsheets are currently involved in this process, and where does it feel slowest?";
     return NextResponse.json({ reply: defaultResponse }, { status: 200 });
   }
 }
