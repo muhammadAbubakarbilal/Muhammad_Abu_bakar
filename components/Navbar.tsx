@@ -50,7 +50,7 @@ export function Navbar() {
           </div>
           <div className="flex flex-col">
             <span className="text-sm font-semibold text-zinc-100 tracking-tight group-hover:text-amber-400 transition-colors">
-              Muhammad Abu Bakar Bilal
+              Muhammad ABU BAKAR
             </span>
             <span className="text-xs font-mono text-zinc-400">
               AI Systems & Automation Engineer

@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle2, ArrowUpRight, Cpu, Layers, Zap } from 'lucide
 import { PROJECTS_DATA } from '@/lib/data';
 
 export const metadata: Metadata = {
-  title: 'Work & Systems Portfolio — Muhammad Abu Bakar Bilal',
+  title: 'Work & Systems Portfolio — Muhammad ABU BAKAR',
   description: 'Explore production-quality demonstration systems, concept builds, and operational architectures built for lead automation, customer operations, and AI workflows.',
 };
 

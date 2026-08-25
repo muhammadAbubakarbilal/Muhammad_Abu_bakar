@@ -72,7 +72,7 @@ export default async function InsightDetailPage({
           </h1>
 
           <p className="text-sm sm:text-base text-zinc-300 leading-relaxed font-mono pt-2">
-            By Muhammad Abu Bakar Bilal — AI Systems & Automation Engineer
+            By Muhammad ABU BAKAR — AI Systems & Automation Engineer
           </p>
         </div>
       </section>

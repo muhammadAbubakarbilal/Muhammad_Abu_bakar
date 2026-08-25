@@ -109,14 +109,14 @@ export default function HomePage() {
                   <span className="w-2 h-2 rounded-full bg-emerald-400" />
                   <span className="text-zinc-300 font-semibold">ENGINEER PROFILE</span>
                 </div>
-                <span className="text-zinc-500">M. ABU BAKAR BILAL</span>
+                <span className="text-zinc-500">M. ABU BAKAR</span>
               </div>
 
               {/* Portrait Image Container */}
               <div className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-zinc-950 border border-zinc-800/80">
                 <Image
                   src="/assets/abu_bakar.jpg"
-                  alt="Muhammad Abu Bakar Bilal — AI Systems & Automation Engineer"
+                  alt="Muhammad Abu Bakar — AI Systems & Automation Engineer"
                   fill
                   className="object-cover object-top hover:scale-[1.02] transition-transform duration-500"
                   priority
@@ -131,7 +131,7 @@ export default function HomePage() {
                 <div className="absolute bottom-3 left-3 right-3 p-3 rounded-xl bg-zinc-900/90 backdrop-blur-md border border-zinc-700/80 text-left space-y-1">
                   <div className="flex items-center justify-between">
                     <p className="text-sm font-bold text-zinc-100 tracking-tight">
-                      Muhammad Abu Bakar Bilal
+                      Muhammad Abu Bakar
                     </p>
                     <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">
                       LEAD

@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import { ArrowRight, Check, CheckCircle2, Layers, Cpu, Database, Wrench } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About — Muhammad Abu Bakar Bilal',
+  title: 'About — Muhammad ABU BAKAR',
   description: 'AI Systems & Automation Engineer sitting at the intersection of Business Operations, Systems Design, and AI Engineering.',
 };
 
@@ -25,7 +25,7 @@ export default function AboutPage() {
               I LIKE SOLVING THE PART OF THE BUSINESS THAT EVERYONE HAS LEARNED TO LIVE WITH.
             </h1>
             <p className="text-sm sm:text-base text-zinc-300 leading-relaxed font-mono">
-              Muhammad Abu Bakar Bilal — AI Systems & Automation Engineer / Business Systems Engineer.
+              Muhammad ABU BAKAR — AI Systems & Automation Engineer / Business Systems Engineer.
             </p>
             <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed max-w-2xl">
               I don&apos;t build software to sell more licenses. I build systems to eliminate operational drag, reduce manual data entry, and give businesses reliable, automated leverage.

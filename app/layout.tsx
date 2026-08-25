@@ -5,16 +5,16 @@ import { Footer } from '@/components/Footer';
 import { AiAssistantDrawer } from '@/components/AiAssistantDrawer';
 
 export const metadata: Metadata = {
-  title: 'Muhammad Abu Bakar Bilal — AI Systems & Automation Engineer',
+  title: 'Muhammad Abu Bakar — AI Systems & Automation Engineer',
   description: 'I design and build AI agents, automation workflows, custom software, websites, and connected business systems that remove repetitive work and improve how your business operates.',
   openGraph: {
-    title: 'Muhammad Abu Bakar Bilal — AI Systems & Automation Engineer',
+    title: 'Muhammad Abu Bakar — AI Systems & Automation Engineer',
     description: 'I start with the bottleneck — not the technology. I map how the work happens, decide what should stay human, what AI should assist with, and what can be automated.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Muhammad Abu Bakar Bilal — AI Systems & Automation Engineer',
+    title: 'Muhammad Abu Bakar — AI Systems & Automation Engineer',
     description: 'Businesses don\'t always need more software. They often need less manual work.',
   },
 };

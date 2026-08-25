@@ -18,7 +18,7 @@ import {
 import { SYSTEMS_DATA } from '@/lib/data';
 
 export const metadata: Metadata = {
-  title: 'Systems & Architecture — Muhammad Abu Bakar Bilal',
+  title: 'Systems & Architecture — Muhammad ABU BAKAR',
   description: 'Explore the 6 core business systems we build: Lead & Sales Automation, Customer Operations, Grounded AI Assistants, Event-Driven Workflows, Custom Software, and RAG Knowledge Engines.',
 };
 

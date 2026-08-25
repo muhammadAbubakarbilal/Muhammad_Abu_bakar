@@ -15,7 +15,7 @@ export function Footer() {
                 AB
               </div>
               <span className="text-sm font-semibold text-zinc-100 tracking-tight">
-                Muhammad Abu Bakar Bilal
+                Muhammad ABU BAKAR
               </span>
             </div>
             <p className="text-zinc-400 text-xs leading-relaxed max-w-md">
@@ -136,7 +136,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-zinc-400 font-mono text-[11px]">
           <div>
-            © {new Date().getFullYear()} Muhammad Abu Bakar Bilal. All rights reserved.
+            © {new Date().getFullYear()} Muhammad ABU BAKAR. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
             <span>Next.js Architecture</span>

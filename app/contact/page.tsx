@@ -4,7 +4,7 @@ import { Mail, Clock, ShieldCheck, CheckCircle2, ArrowRight } from 'lucide-react
 import { BottleneckDiagnosticForm } from '@/components/BottleneckDiagnosticForm';
 
 export const metadata: Metadata = {
-  title: 'Find Your Bottleneck — Diagnostic Intake — Muhammad Abu Bakar Bilal',
+  title: 'Find Your Bottleneck — Diagnostic Intake — Muhammad ABU BAKAR',
   description: 'Submit your business workflow bottleneck. I will analyze where manual work, delays, or disconnected tools are costing you, and prepare a system blueprint.',
 };
 

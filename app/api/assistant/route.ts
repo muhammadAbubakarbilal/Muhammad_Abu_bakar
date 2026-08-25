@@ -105,7 +105,7 @@ export async function POST(req: NextRequest) {
     });
 
     const systemInstruction = `
-You are the AI Systems & Bottleneck Diagnostic Assistant on the personal studio website of **Muhammad Abu Bakar Bilal** (AI Systems & Automation Engineer / Business Systems Engineer).
+You are the AI Systems & Bottleneck Diagnostic Assistant on the personal studio website of **Muhammad ABU BAKAR** (AI Systems & Automation Engineer / Business Systems Engineer).
 
 ### Core Working Identity & Philosophy:
 - **Central Philosophy:** "I DON'T START WITH THE TECHNOLOGY. I START WITH THE BOTTLENECK."

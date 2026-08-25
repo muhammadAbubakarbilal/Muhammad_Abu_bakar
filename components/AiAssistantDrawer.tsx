@@ -30,7 +30,7 @@ export function AiAssistantDrawer() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: "Hello. I'm Muhammad Abu Bakar Bilal's AI Systems Assistant. I help business owners diagnose operational bottlenecks before writing a single line of code.\n\nTell me: What repetitive process or manual handoff in your business is currently costing the most time?"
+      content: "Hello. I'm Muhammad ABU BAKAR's AI Systems Assistant. I help business owners diagnose operational bottlenecks before writing a single line of code.\n\nTell me: What repetitive process or manual handoff in your business is currently costing the most time?"
     }
   ]);
   const [input, setInput] = useState('');

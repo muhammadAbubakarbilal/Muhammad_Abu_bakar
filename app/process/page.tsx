@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle2, MapPin, Sliders, Code2, Rocket, ArrowDown } f
 import { PROCESS_STEPS } from '@/lib/data';
 
 export const metadata: Metadata = {
-  title: 'Engineering Process — Muhammad Abu Bakar Bilal',
+  title: 'Engineering Process — Muhammad ABU BAKAR',
   description: 'How I turn operational bottlenecks into production systems: 01 Map, 02 Design, 03 Build, 04 Deploy & Monitor.',
 };
 

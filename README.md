@@ -1,4 +1,4 @@
-# Muhammad Abu Bakar Bilal — AI Systems & Automation Portfolio
+# Muhammad ABU BAKAR — AI Systems & Automation Portfolio
 
 A modern, production-ready portfolio and business systems studio built with **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS**, and **Google Gemini API**.
 

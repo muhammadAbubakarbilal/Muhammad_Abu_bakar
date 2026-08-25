@@ -5,7 +5,7 @@ import { ArrowRight, Clock, BookOpen, Layers } from 'lucide-react';
 import { INSIGHTS_DATA } from '@/lib/data';
 
 export const metadata: Metadata = {
-  title: 'Insights & Systems Thinking — Muhammad Abu Bakar Bilal',
+  title: 'Insights & Systems Thinking — Muhammad ABU BAKAR',
   description: 'Practical essays and architectural breakdowns on business automation, lead operations, human-in-the-loop AI, and custom systems design.',
 };
 

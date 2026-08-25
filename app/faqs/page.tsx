@@ -5,7 +5,7 @@ import { ArrowRight, HelpCircle } from 'lucide-react';
 import { FaqAccordion } from '@/components/FaqAccordion';
 
 export const metadata: Metadata = {
-  title: 'Frequently Answered Questions — Muhammad Abu Bakar Bilal',
+  title: 'Frequently Answered Questions — Muhammad ABU BAKAR',
   description: 'Direct, candid answers about how systems are scoped, when not to use AI, how failures are handled, data security, and timeline expectations.',
 };
 
