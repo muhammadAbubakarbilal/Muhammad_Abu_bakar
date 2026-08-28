@@ -8,11 +8,11 @@ export function PhilosophyMatrix() {
   const [selectedTier, setSelectedTier] = useState<'all' | 'human' | 'ai' | 'automated'>('all');
 
   return (
-    <section id="section-philosophy" className="w-full py-20 bg-[#090b0e] border-y border-zinc-800/80">
+    <section id="section-philosophy" className="w-full py-10 sm:py-12 bg-[#090b0e] border-y border-zinc-800/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-12">
+        <div className="max-w-3xl mb-8">
           <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-3">
             00 / HOW I THINK
           </div>
@@ -25,7 +25,7 @@ export function PhilosophyMatrix() {
         </div>
 
         {/* Filter Pills */}
-        <div className="flex flex-wrap items-center gap-2 mb-8 font-mono text-xs">
+        <div className="flex flex-wrap items-center gap-2 mb-6 font-mono text-xs">
           <button
             onClick={() => setSelectedTier('all')}
             className={`px-3.5 py-1.5 rounded-lg border transition-colors ${

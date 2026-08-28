@@ -14,7 +14,7 @@ export default function AboutPage() {
     <div className="w-full flex flex-col items-center">
       
       {/* Header */}
-      <section className="w-full pt-12 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-left border-b border-zinc-800/80">
+      <section className="w-full pt-6 pb-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-left border-b border-zinc-800/80">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           
           <div className="lg:col-span-8 space-y-4">
@@ -50,10 +50,10 @@ export default function AboutPage() {
       </section>
 
       {/* Main Philosophy & Intersectional Positioning */}
-      <section className="w-full py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-16">
+      <section className="w-full py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-10">
         
         {/* Intersection Triangle */}
-        <div className="bg-[#0e121a] border border-zinc-800/90 rounded-3xl p-6 sm:p-10 lg:p-12 shadow-2xl space-y-8">
+        <div className="bg-[#0e121a] border border-zinc-800/90 rounded-3xl p-5 sm:p-7 lg:p-8 shadow-2xl space-y-6">
           <div className="max-w-2xl">
             <span className="text-xs font-mono text-amber-400 uppercase tracking-wider block mb-2">
               THE INTERSECTION
@@ -114,7 +114,7 @@ export default function AboutPage() {
         {/* What I Am Interested In */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           
-          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-6 sm:p-8 space-y-6">
+          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-5 sm:p-6 space-y-4">
             <h3 className="text-base font-bold text-zinc-100 font-mono tracking-tight flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-amber-400" />
               WHAT I INVESTIGATE IN A BUSINESS
@@ -138,7 +138,7 @@ export default function AboutPage() {
             </ul>
           </div>
 
-          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-6 sm:p-8 space-y-6 flex flex-col justify-between">
+          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-5 sm:p-6 space-y-4 flex flex-col justify-between">
             <div className="space-y-4">
               <h3 className="text-base font-bold text-zinc-100 font-mono tracking-tight flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-400" />
@@ -171,7 +171,7 @@ export default function AboutPage() {
       </section>
 
       {/* Direct Contact CTA */}
-      <section className="w-full py-16 bg-[#090b0e] border-t border-zinc-800/80 text-center">
+      <section className="w-full py-10 bg-[#090b0e] border-t border-zinc-800/80 text-center">
         <div className="max-w-3xl mx-auto px-4 space-y-4">
           <h3 className="text-2xl font-bold text-zinc-100">
             Have a bottleneck in your operations?

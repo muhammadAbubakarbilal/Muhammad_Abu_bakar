@@ -34,7 +34,7 @@ export default function HomePage() {
       {/* ======================================================== */}
       {/* SECTION 01 — HERO */}
       {/* ======================================================== */}
-      <section id="hero-section" className="w-full pt-8 sm:pt-12 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-left">
+      <section id="hero-section" className="w-full pt-0 pb-1 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-left">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           
           {/* Left Column: Core Value Proposition */}
@@ -165,7 +165,7 @@ export default function HomePage() {
         </div>
 
         {/* Hero Visualizer */}
-        <div className="mt-14 w-full">
+        <div className="mt-8 sm:mt-10 w-full">
           <WorkflowVisualizer />
         </div>
       </section>
@@ -178,8 +178,8 @@ export default function HomePage() {
       {/* ======================================================== */}
       {/* SECTION 01 — COMMON BOTTLENECKS */}
       {/* ======================================================== */}
-      <section id="section-bottlenecks" className="w-full py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="max-w-3xl mb-12">
+      <section id="section-bottlenecks" className="w-full py-10 sm:py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="max-w-3xl mb-8">
           <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-3">
             01 / THE PROBLEMS
           </div>
@@ -194,7 +194,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           
           {/* Card 1 */}
-          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-zinc-700 transition-colors">
+          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-5 sm:p-6 flex flex-col justify-between hover:border-zinc-700 transition-colors">
             <div>
               <span className="text-[11px] font-mono text-amber-400 font-bold uppercase">BOTTLENECK 01</span>
               <h3 className="text-base sm:text-lg font-bold text-zinc-100 mt-2 tracking-tight">
@@ -217,7 +217,7 @@ export default function HomePage() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-zinc-700 transition-colors">
+          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-5 sm:p-6 flex flex-col justify-between hover:border-zinc-700 transition-colors">
             <div>
               <span className="text-[11px] font-mono text-amber-400 font-bold uppercase">BOTTLENECK 02</span>
               <h3 className="text-base sm:text-lg font-bold text-zinc-100 mt-2 tracking-tight">
@@ -240,7 +240,7 @@ export default function HomePage() {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-zinc-700 transition-colors">
+          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-5 sm:p-6 flex flex-col justify-between hover:border-zinc-700 transition-colors">
             <div>
               <span className="text-[11px] font-mono text-amber-400 font-bold uppercase">BOTTLENECK 03</span>
               <h3 className="text-base sm:text-lg font-bold text-zinc-100 mt-2 tracking-tight">
@@ -263,7 +263,7 @@ export default function HomePage() {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-zinc-700 transition-colors">
+          <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-5 sm:p-6 flex flex-col justify-between hover:border-zinc-700 transition-colors">
             <div>
               <span className="text-[11px] font-mono text-amber-400 font-bold uppercase">BOTTLENECK 04</span>
               <h3 className="text-base sm:text-lg font-bold text-zinc-100 mt-2 tracking-tight">
@@ -291,10 +291,10 @@ export default function HomePage() {
       {/* ======================================================== */}
       {/* SECTION 02 — WHAT I BUILD */}
       {/* ======================================================== */}
-      <section id="section-systems-summary" className="w-full py-20 bg-[#0c0f16] border-y border-zinc-800/80">
+      <section id="section-systems-summary" className="w-full py-10 sm:py-12 bg-[#0c0f16] border-y border-zinc-800/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
             <div className="max-w-2xl">
               <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-3">
                 02 / SYSTEMS
@@ -320,7 +320,7 @@ export default function HomePage() {
             {SYSTEMS_DATA.map((sys) => (
               <div
                 key={sys.id}
-                className="bg-[#11151f] border border-zinc-800/90 rounded-2xl p-6 sm:p-7 flex flex-col justify-between hover:border-amber-500/40 transition-all duration-200 group"
+                className="bg-[#11151f] border border-zinc-800/90 rounded-2xl p-5 sm:p-6 flex flex-col justify-between hover:border-amber-500/40 transition-all duration-200 group"
               >
                 <div>
                   <div className="flex items-center justify-between pb-3 border-b border-zinc-800">
@@ -350,7 +350,7 @@ export default function HomePage() {
                   </ul>
                 </div>
 
-                <div className="mt-8 pt-4 border-t border-zinc-800/80 flex items-center justify-between">
+                <div className="mt-5 pt-3 border-t border-zinc-800/80 flex items-center justify-between">
                   <Link
                     href={`/systems#${sys.slug}`}
                     className="text-xs font-mono font-medium text-zinc-300 group-hover:text-amber-400 inline-flex items-center gap-1.5 transition-colors"
@@ -379,8 +379,8 @@ export default function HomePage() {
       {/* ======================================================== */}
       {/* SECTION 05 — WHO THIS IS FOR */}
       {/* ======================================================== */}
-      <section id="section-who-this-is-for" className="w-full py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="max-w-3xl mb-12">
+      <section id="section-who-this-is-for" className="w-full py-10 sm:py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="max-w-3xl mb-8">
           <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-3">
             05 / FIT
           </div>
@@ -421,7 +421,7 @@ export default function HomePage() {
           ].map((item, idx) => (
             <div
               key={idx}
-              className="p-6 rounded-2xl bg-[#0f1219] border border-zinc-800/80 hover:border-zinc-700 transition-colors flex flex-col justify-between"
+              className="p-5 rounded-2xl bg-[#0f1219] border border-zinc-800/80 hover:border-zinc-700 transition-colors flex flex-col justify-between"
             >
               <div>
                 <h3 className="text-sm sm:text-base font-bold text-zinc-100 font-mono tracking-tight text-amber-400/90">
@@ -443,10 +443,10 @@ export default function HomePage() {
       {/* ======================================================== */}
       {/* SECTION 06 — HOW I USE AI */}
       {/* ======================================================== */}
-      <section id="section-how-i-use-ai" className="w-full py-20 bg-[#0b0e14] border-y border-zinc-800/80">
+      <section id="section-how-i-use-ai" className="w-full py-10 sm:py-12 bg-[#0b0e14] border-y border-zinc-800/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
-          <div className="max-w-3xl mb-12">
+          <div className="max-w-3xl mb-8">
             <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-3">
               06 / AI STRATEGY
             </div>
@@ -459,7 +459,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 sm:p-7 rounded-2xl bg-[#10141d] border border-zinc-800">
+            <div className="p-5 sm:p-6 rounded-2xl bg-[#10141d] border border-zinc-800">
               <span className="text-xs font-mono text-amber-400 font-bold uppercase">Principle 01</span>
               <h3 className="text-base font-bold text-zinc-100 mt-2 font-mono">
                 AI ASSISTS
@@ -469,7 +469,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="p-6 sm:p-7 rounded-2xl bg-[#10141d] border border-zinc-800">
+            <div className="p-5 sm:p-6 rounded-2xl bg-[#10141d] border border-zinc-800">
               <span className="text-xs font-mono text-emerald-400 font-bold uppercase">Principle 02</span>
               <h3 className="text-base font-bold text-zinc-100 mt-2 font-mono">
                 AI ACTS
@@ -479,7 +479,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="p-6 sm:p-7 rounded-2xl bg-[#10141d] border border-zinc-800">
+            <div className="p-5 sm:p-6 rounded-2xl bg-[#10141d] border border-zinc-800">
               <span className="text-xs font-mono text-sky-400 font-bold uppercase">Principle 03</span>
               <h3 className="text-base font-bold text-zinc-100 mt-2 font-mono">
                 HUMANS TAKE OVER
@@ -496,8 +496,8 @@ export default function HomePage() {
       {/* ======================================================== */}
       {/* SECTION 07 — TECHNICAL CREDIBILITY (UNDER THE HOOD) */}
       {/* ======================================================== */}
-      <section id="section-under-the-hood" className="w-full py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="max-w-3xl mb-12">
+      <section id="section-under-the-hood" className="w-full py-10 sm:py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="max-w-3xl mb-8">
           <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-3">
             07 / TECHNICAL CREDIBILITY
           </div>
@@ -544,7 +544,7 @@ export default function HomePage() {
           ].map((item, idx) => (
             <div
               key={idx}
-              className="p-6 rounded-2xl bg-[#0f121a] border border-zinc-800/90 flex flex-col justify-between"
+              className="p-5 rounded-2xl bg-[#0f121a] border border-zinc-800/90 flex flex-col justify-between"
             >
               <div>
                 <span className="text-[11px] font-mono text-amber-400 font-semibold tracking-wider uppercase">
@@ -565,8 +565,8 @@ export default function HomePage() {
       {/* ======================================================== */}
       {/* SECTION 08 — FINAL CTA BANNER */}
       {/* ======================================================== */}
-      <section id="section-final-cta" className="w-full py-20 bg-gradient-to-b from-[#090b0e] to-[#121622] border-t border-zinc-800/80">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+      <section id="section-final-cta" className="w-full py-10 sm:py-12 bg-gradient-to-b from-[#090b0e] to-[#121622] border-t border-zinc-800/80">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-xs font-mono text-amber-400">
             START WITH THE BOTTLENECK
           </div>

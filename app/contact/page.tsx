@@ -13,7 +13,7 @@ export default function ContactPage() {
     <div className="w-full flex flex-col items-center">
       
       {/* Header */}
-      <section className="w-full pt-12 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-left border-b border-zinc-800/80">
+      <section className="w-full pt-6 pb-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-left border-b border-zinc-800/80">
         <div className="max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400">
             DIAGNOSTIC INTAKE
@@ -28,8 +28,8 @@ export default function ContactPage() {
       </section>
 
       {/* Main Content Grid: Form + Trust / Expectation Sidebar */}
-      <section className="w-full py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+      <section className="w-full py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
           {/* Diagnostic Form (8 Cols) */}
           <div className="lg:col-span-8">
@@ -40,7 +40,7 @@ export default function ContactPage() {
           <div className="lg:col-span-4 space-y-6">
             
             {/* What Happens Next Card */}
-            <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-6 sm:p-7 space-y-4">
+            <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-5 sm:p-6 space-y-3">
               <h3 className="text-sm font-mono font-bold text-zinc-200 uppercase tracking-wider">
                 WHAT HAPPENS NEXT
               </h3>
@@ -73,7 +73,7 @@ export default function ContactPage() {
             </div>
 
             {/* Direct Email & Standards */}
-            <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-6 sm:p-7 space-y-4">
+            <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-5 sm:p-6 space-y-3">
               <h3 className="text-sm font-mono font-bold text-zinc-200 uppercase tracking-wider">
                 DIRECT CONTACT
               </h3>

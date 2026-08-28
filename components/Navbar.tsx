@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu, X, ArrowRight } from 'lucide-react';
 
@@ -38,15 +39,22 @@ export function Navbar() {
           : 'bg-[#090b0e]/60 backdrop-blur-xs border-b border-zinc-900/50'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brand identity */}
         <Link
           id="nav-brand-link"
           href="/"
           className="flex items-center gap-3.5 group text-left"
         >
-          <div className="w-10 h-10 rounded-lg bg-zinc-900 border border-zinc-700/80 flex items-center justify-center font-mono text-sm font-bold text-zinc-100 group-hover:border-amber-500/80 transition-colors">
-            AB
+          <div className="w-10 h-10 rounded-lg bg-zinc-900 border border-zinc-700/80 flex items-center justify-center p-1.5 group-hover:border-amber-500/80 transition-colors overflow-hidden shrink-0">
+            <Image
+              src="/assets/svg/abubakarbilal.svg"
+              alt="Muhammad Abu Bakar Logo"
+              width={28}
+              height={28}
+              className="w-full h-full object-contain invert"
+              priority
+            />
           </div>
           <div className="flex flex-col">
             <span className="text-sm font-semibold text-zinc-100 tracking-tight group-hover:text-amber-400 transition-colors">

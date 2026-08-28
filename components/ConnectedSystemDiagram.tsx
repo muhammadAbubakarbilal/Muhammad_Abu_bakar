@@ -50,11 +50,11 @@ export function ConnectedSystemDiagram() {
   const activeNode = CORE_FLOW.find((n) => n.id === activeNodeId) || CORE_FLOW[1];
 
   return (
-    <section id="section-connected-systems" className="w-full py-20 bg-[#090b0e]">
+    <section id="section-connected-systems" className="w-full py-10 sm:py-12 bg-[#090b0e]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
+        <div className="text-center max-w-3xl mx-auto mb-8">
           <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-3">
             03 / ARCHITECTURE
           </div>
@@ -67,10 +67,10 @@ export function ConnectedSystemDiagram() {
         </div>
 
         {/* Central Architecture Container */}
-        <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-6 sm:p-10 shadow-2xl relative">
+        <div className="bg-[#0e121a] border border-zinc-800/90 rounded-2xl p-5 sm:p-7 shadow-2xl relative">
           
           {/* Top Label */}
-          <div className="flex items-center justify-between pb-6 border-b border-zinc-800/80 mb-8">
+          <div className="flex items-center justify-between pb-6 border-b border-zinc-800/80 mb-6">
             <span className="text-xs font-mono text-zinc-400 uppercase tracking-wider">
               CORE SYSTEM PIPELINE
             </span>

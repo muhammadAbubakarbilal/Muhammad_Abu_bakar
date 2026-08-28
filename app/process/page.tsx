@@ -16,7 +16,7 @@ export default function ProcessPage() {
     <div className="w-full flex flex-col items-center">
       
       {/* Header */}
-      <section className="w-full pt-12 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-left border-b border-zinc-800/80">
+      <section className="w-full pt-6 pb-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-left border-b border-zinc-800/80">
         <div className="max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400">
             ENGINEERING FRAMEWORK
@@ -31,13 +31,13 @@ export default function ProcessPage() {
       </section>
 
       {/* 4 Steps Timeline */}
-      <section className="w-full py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-12">
+      <section className="w-full py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-6">
         {PROCESS_STEPS.map((step, idx) => {
           const Icon = stepIcons[idx];
           return (
             <div
               key={step.step}
-              className="bg-[#0e121a] border border-zinc-800/90 rounded-3xl p-6 sm:p-10 lg:p-12 shadow-2xl relative overflow-hidden"
+              className="bg-[#0e121a] border border-zinc-800/90 rounded-3xl p-5 sm:p-7 lg:p-8 shadow-2xl relative overflow-hidden"
             >
               {/* Step number badge & Title */}
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-zinc-800">
@@ -98,7 +98,7 @@ export default function ProcessPage() {
       </section>
 
       {/* Philosophy Section Callout */}
-      <section className="w-full py-16 bg-[#0c0f16] border-t border-zinc-800/80 text-center">
+      <section className="w-full py-10 bg-[#0c0f16] border-t border-zinc-800/80 text-center">
         <div className="max-w-3xl mx-auto px-4 space-y-5">
           <h3 className="text-2xl sm:text-3xl font-bold text-zinc-100">
             Ready to map out your business workflow?

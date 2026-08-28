@@ -7,6 +7,13 @@ import { AiAssistantDrawer } from '@/components/AiAssistantDrawer';
 export const metadata: Metadata = {
   title: 'Muhammad Abu Bakar — AI Systems & Automation Engineer',
   description: 'I design and build AI agents, automation workflows, custom software, websites, and connected business systems that remove repetitive work and improve how your business operates.',
+  icons: {
+    icon: [
+      { url: '/assets/svg/abubakarbilal.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/assets/svg/abubakarbilal.svg',
+    apple: '/assets/svg/abubakarbilal.svg',
+  },
   openGraph: {
     title: 'Muhammad Abu Bakar — AI Systems & Automation Engineer',
     description: 'I start with the bottleneck — not the technology. I map how the work happens, decide what should stay human, what AI should assist with, and what can be automated.',
