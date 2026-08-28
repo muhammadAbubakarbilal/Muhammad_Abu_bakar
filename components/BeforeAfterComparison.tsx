@@ -32,11 +32,11 @@ export function BeforeAfterComparison() {
   const [viewMode, setViewMode] = useState<'both' | 'before' | 'after'>('both');
 
   return (
-    <section id="section-before-after" className="w-full py-20 bg-[#090b0e] border-t border-zinc-800/80">
+    <section id="section-before-after" className="w-full py-10 sm:py-12 bg-[#090b0e] border-t border-zinc-800/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-12">
+        <div className="max-w-3xl mb-8">
           <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-3">
             04 / THE TRANSFORMATION
           </div>
@@ -49,7 +49,7 @@ export function BeforeAfterComparison() {
         </div>
 
         {/* View Toggle */}
-        <div className="flex items-center gap-2 mb-8 font-mono text-xs">
+        <div className="flex items-center gap-2 mb-6 font-mono text-xs">
           <button
             onClick={() => setViewMode('both')}
             className={`px-3.5 py-1.5 rounded-lg border transition-colors ${
@@ -87,8 +87,8 @@ export function BeforeAfterComparison() {
           
           {/* BEFORE CARD */}
           {(viewMode === 'both' || viewMode === 'before') && (
-            <div className="rounded-2xl bg-[#0f1117] border border-rose-900/40 p-6 sm:p-8 shadow-xl">
-              <div className="flex items-center justify-between pb-4 border-b border-rose-900/30 mb-6">
+            <div className="rounded-2xl bg-[#0f1117] border border-rose-900/40 p-5 sm:p-6 shadow-xl">
+              <div className="flex items-center justify-between pb-4 border-b border-rose-900/30 mb-5">
                 <div className="flex items-center gap-2">
                   <XCircle className="w-5 h-5 text-rose-400" />
                   <h3 className="text-base font-bold text-rose-200 font-mono tracking-tight">
@@ -98,7 +98,7 @@ export function BeforeAfterComparison() {
                 <span className="text-xs font-mono text-rose-400/80">High Delay & Error Risk</span>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-3">
                 {BEFORE_STEPS.map((item, idx) => (
                   <div key={idx} className="flex items-start gap-3 text-xs">
                     <span className="font-mono text-rose-400/80 shrink-0 font-bold">
@@ -120,8 +120,8 @@ export function BeforeAfterComparison() {
 
           {/* AFTER CARD */}
           {(viewMode === 'both' || viewMode === 'after') && (
-            <div className="rounded-2xl bg-[#0e141c] border border-emerald-800/60 p-6 sm:p-8 shadow-2xl relative ring-1 ring-emerald-500/20">
-              <div className="flex items-center justify-between pb-4 border-b border-emerald-800/40 mb-6">
+            <div className="rounded-2xl bg-[#0e141c] border border-emerald-800/60 p-5 sm:p-6 shadow-2xl relative ring-1 ring-emerald-500/20">
+              <div className="flex items-center justify-between pb-4 border-b border-emerald-800/40 mb-5">
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-emerald-400" />
                   <h3 className="text-base font-bold text-emerald-200 font-mono tracking-tight">
@@ -131,7 +131,7 @@ export function BeforeAfterComparison() {
                 <span className="text-xs font-mono text-emerald-400">Zero Administrative Friction</span>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-3">
                 {AFTER_STEPS.map((item, idx) => (
                   <div key={idx} className="flex items-start gap-3 text-xs">
                     <span className="font-mono text-emerald-400 shrink-0 font-bold">

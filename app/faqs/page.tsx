@@ -14,7 +14,7 @@ export default function FaqsPage() {
     <div className="w-full flex flex-col items-center">
       
       {/* Header */}
-      <section className="w-full pt-12 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-left border-b border-zinc-800/80">
+      <section className="w-full pt-6 pb-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-left border-b border-zinc-800/80">
         <div className="max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400">
             QUESTIONS & ANSWERS
@@ -29,12 +29,12 @@ export default function FaqsPage() {
       </section>
 
       {/* FAQs Main Section */}
-      <section className="w-full py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+      <section className="w-full py-10 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <FaqAccordion />
       </section>
 
       {/* Bottom Consultation Box */}
-      <section className="w-full py-16 bg-[#0c0f16] border-t border-zinc-800/80 text-center">
+      <section className="w-full py-10 bg-[#0c0f16] border-t border-zinc-800/80 text-center">
         <div className="max-w-3xl mx-auto px-4 space-y-4">
           <h3 className="text-2xl font-bold text-zinc-100">
             Have a question specific to your tech stack?

@@ -1,18 +1,25 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowUpRight, Mail } from 'lucide-react';
 
 export function Footer() {
   return (
     <footer id="global-footer" className="w-full bg-[#08090d] border-t border-zinc-800/80 text-zinc-400 text-xs">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 pb-14 border-b border-zinc-800/60">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 pb-8 border-b border-zinc-800/60">
           
           {/* Identity Column */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-md bg-zinc-900 border border-zinc-700/80 flex items-center justify-center font-mono text-xs font-bold text-zinc-100">
-                AB
+              <div className="w-8 h-8 rounded-md bg-zinc-900 border border-zinc-700/80 flex items-center justify-center p-1 overflow-hidden shrink-0">
+                <Image
+                  src="/assets/svg/abubakarbilal.svg"
+                  alt="Muhammad Abu Bakar Logo"
+                  width={24}
+                  height={24}
+                  className="w-full h-full object-contain invert"
+                />
               </div>
               <span className="text-sm font-semibold text-zinc-100 tracking-tight">
                 Muhammad ABU BAKAR
