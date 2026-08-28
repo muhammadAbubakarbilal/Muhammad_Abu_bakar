@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   description: 'I design and build AI agents, automation workflows, custom software, websites, and connected business systems that remove repetitive work and improve how your business operates.',
   icons: {
     icon: [
-      { url: '/assets/svg/abubakarbilal.svg', type: 'image/svg+xml' },
+      { url: '/assets/svg/favicon.svg', type: 'image/svg+xml' },
     ],
-    shortcut: '/assets/svg/abubakarbilal.svg',
-    apple: '/assets/svg/abubakarbilal.svg',
+    shortcut: '/assets/svg/favicon.svg',
+    apple: '/assets/svg/favicon.svg',
   },
   openGraph: {
     title: 'Muhammad Abu Bakar — AI Systems & Automation Engineer',
@@ -33,6 +33,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <link rel="icon" href="/assets/svg/favicon.svg" type="image/svg+xml" />
+        <link rel="shortcut icon" href="/assets/svg/favicon.svg" />
+        <link rel="apple-touch-icon" href="/assets/svg/favicon.svg" />
+      </head>
       <body className="bg-[#090b0e] text-zinc-100 min-h-screen flex flex-col font-sans antialiased selection:bg-amber-500 selection:text-zinc-950">
         <Navbar />
         <main className="flex-1 w-full flex flex-col">
