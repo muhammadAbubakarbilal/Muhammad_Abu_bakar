@@ -12,13 +12,13 @@ export function Footer() {
           {/* Identity Column */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-md bg-zinc-900 border border-zinc-700/80 flex items-center justify-center p-1 overflow-hidden shrink-0">
+              <div className="w-8 h-8 rounded-lg bg-zinc-900 border border-zinc-700/80 flex items-center justify-center overflow-hidden shrink-0">
                 <Image
-                  src="/assets/svg/abubakarbilal.svg"
+                  src="/assets/svg/favicon.svg"
                   alt="Muhammad Abu Bakar Logo"
-                  width={24}
-                  height={24}
-                  className="w-full h-full object-contain invert"
+                  width={32}
+                  height={32}
+                  className="w-full h-full object-contain"
                 />
               </div>
               <span className="text-sm font-semibold text-zinc-100 tracking-tight">

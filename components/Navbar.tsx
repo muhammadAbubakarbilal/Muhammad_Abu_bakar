@@ -46,13 +46,13 @@ export function Navbar() {
           href="/"
           className="flex items-center gap-3.5 group text-left"
         >
-          <div className="w-10 h-10 rounded-lg bg-zinc-900 border border-zinc-700/80 flex items-center justify-center p-1.5 group-hover:border-amber-500/80 transition-colors overflow-hidden shrink-0">
+          <div className="w-9 h-9 rounded-lg bg-zinc-900 border border-zinc-700/80 flex items-center justify-center group-hover:border-amber-500/80 transition-colors overflow-hidden shrink-0">
             <Image
-              src="/assets/svg/abubakarbilal.svg"
+              src="/assets/svg/favicon.svg"
               alt="Muhammad Abu Bakar Logo"
-              width={28}
-              height={28}
-              className="w-full h-full object-contain invert"
+              width={36}
+              height={36}
+              className="w-full h-full object-contain"
               priority
             />
           </div>
