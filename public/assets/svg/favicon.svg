@@ -4,40 +4,46 @@
      width="64"
      height="64"
      role="img"
-     aria-label="AB Monogram Favicon – No Circle">
+     aria-label="AB Monogram Favicon – White">
   <!--
-    AB MONOGRAM – FAVICON READY (No Circle)
-    Even more simplified for maximum clarity at 16×16 px
-    Bold solid forms only
+    AB MONOGRAM – WHITE FAVICON
+    High visibility white version
+    Optimized for browser tabs
+    Bold simplified forms for 16×16 clarity
   -->
 
-  <g fill="#0A0A0A" transform="translate(2,2) scale(0.94)">
+  <!-- Solid dark circle background for maximum contrast -->
+  <circle cx="32" cy="32" r="30" fill="#0A0A0A"/>
 
-    <!-- A -->
-    <path d="M 8 52
-             L 24 10
-             L 31 10
-             L 18 52 Z"/>
-    <path d="M 31 10
-             L 38 10
-             L 52 52
-             L 43 52 Z"/>
-    <!-- Crossbar -->
-    <rect x="18" y="33" width="22" height="6.5" rx="0.8"/>
+  <!-- White bold AB monogram -->
+  <g fill="#FFFFFF">
 
-    <!-- B -->
-    <path d="M 33 10 H 41 V 52 H 33 Z"/>
+    <!-- Letter A -->
+    <path d="M 13 49
+             L 26.5 15
+             L 32.5 15
+             L 21.5 49 Z"/>
+    <path d="M 32.5 15
+             L 38.5 15
+             L 49 49
+             L 42 49 Z"/>
+    <!-- Thick crossbar -->
+    <rect x="21.5" y="33" width="19" height="5.8" rx="0.6"/>
+
+    <!-- Letter B -->
+    <!-- Stem -->
+    <path d="M 34 15 H 41 V 49 H 34 Z"/>
 
     <!-- Upper bowl -->
-    <path d="M 41 10
-             C 54 10, 58 17, 58 25
-             C 58 32, 53 35.5, 44 35.5
+    <path d="M 41 15
+             C 52.5 15, 56 20.5, 56 26.5
+             C 56 32, 51.5 35, 43 35
              H 41 Z"/>
 
     <!-- Lower bowl -->
-    <path d="M 41 35.5
-             C 55 35.5, 59.5 41, 59.5 48
-             C 59.5 53, 53.5 52, 44 52
+    <path d="M 41 35
+             C 53.5 35, 57.5 40, 57.5 46
+             C 57.5 50.5, 52 49, 43 49
              H 41 Z"/>
   </g>
 </svg>
