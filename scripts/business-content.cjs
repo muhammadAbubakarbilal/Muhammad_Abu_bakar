@@ -7,11 +7,11 @@ module.exports = ({source, data, replacements, exact}) => {
   replacements.set(old,value);exact.set(old,value);
  };
  const pairs={
-  'Design that delivers results.':'Websites, AI & systems. Built for business.',
-  'Design that ':'Websites, AI & systems. ',
-  'delivers results.':'Built for business.',
-  'Strategic design that drives growth, not just looks good.':'I design professional websites',
-  'I create everything your brand needs to attract customers and turn them into sales.':'and build AI assistants, CRM workflows, and custom software that help businesses manage inquiries, connect their tools, and reduce repetitive work.',
+  "Design that delivers results.":"Visitors shouldn't have to guess. You shouldn't have to chase",
+  "Design that ":"Visitors shouldn't have to guess.",
+  "delivers results.":"You shouldn't have to chase",
+  "Strategic design that drives growth, not just looks good.":"I help businesses make their websites clearer,",
+  "I create everything your brand needs to attract customers and turn them into sales.":"handle inquiries more effectively, and reduce repetitive work through connected workflows and practical AI.",
   'Services that supercharge your business.':'What I build for businesses.',
   'Services that ':'What I build ',
   'supercharge your business.':'for businesses.',

@@ -21,7 +21,7 @@ const normalize=s=>s.replace(/\s+/g,' ').trim();
     result.pages.push({route,width,...state});check(width+' '+route+' no horizontal overflow',!state.overflow);check(width+' '+route+' images loaded',!state.brokenImages.length);
     if(model.pages[route]){const copy=model.pages[route];check(width+' '+route+' metadata',state.description===copy.description&&state.canonical===model.siteURL+route);if(copy.body)copy.body.forEach((text,i)=>check(width+' '+route+' body '+i,normalize(state.text).includes(normalize(text))));}
     if(route==='/'){
-     check(width+' home heading',normalize(state.text).includes('Websites, AI & systems. Built for business.'));
+     check(width+' home heading',normalize(state.text).includes("Visitors shouldn't have to guess. You shouldn't have to chase"));
      check(width+' about copy',normalize(state.text).includes('I build websites, AI assistants, and custom software. I start by understanding'));
      check(width+' pricing copy',normalize(state.text).includes('built around a clearly defined project scope.'));
      await page.screenshot({path:`docs/qa/content-pass/after-${width}.png`});

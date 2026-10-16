@@ -18,7 +18,10 @@ export const metadata: Metadata = {
   },
   description,
   alternates: { canonical: "/" },
-  icons: { icon: "/assets/svg/favicon.svg" },
+  icons: {
+    icon: { url: "/assets/abu_bakar.jpg", type: "image/jpeg" },
+    apple: "/assets/abu_bakar.jpg",
+  },
   openGraph: {
     title: `${site.name} — Websites, AI & Connected Systems`,
     description,

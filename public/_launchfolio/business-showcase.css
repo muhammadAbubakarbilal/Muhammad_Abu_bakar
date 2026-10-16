@@ -1,0 +1,79 @@
+﻿/* Homepage-only integration. Original Framer section trees remain intact. */
+.business-showcase-page #projects { overflow: clip; }
+.business-showcase-ready .framer-ti4fmg .framer-1kqkoe > [data-framer-background-image-wrapper] { visibility: hidden; }
+.business-showcase { position:absolute; top:0; left:0; z-index:2; box-sizing:border-box; transform-origin:top left; pointer-events:none; font-family:Switzer,Arial,sans-serif; color:#161616; isolation:isolate; contain:layout style; }
+.business-showcase::before { content:""; position:absolute; inset:-24px; z-index:-1; pointer-events:none; background:radial-gradient(ellipse closest-side at 55% 50%,rgba(250,250,250,.9),rgba(250,250,250,.65) 50%,transparent 100%); }
+.business-showcase__composition { box-sizing:border-box; height:100%; padding:28px 24px 96px; display:flex; flex-direction:column; justify-content:center; gap:22px; }
+.business-showcase__question { margin:0; font-size:var(--question-size,26px); font-weight:500; line-height:1.25; letter-spacing:-.035em; color:#343434; text-wrap:pretty; }
+.business-showcase__question:first-child { color:#161616; font-weight:600; }
+.business-showcase__word { display:inline-block; }
+.business-showcase__controls { position:absolute; left:24px; bottom:66px; display:flex; align-items:center; gap:12px; pointer-events:auto; }
+.business-showcase__controls button { border:0; padding:5px 0; background:none; color:#686868; font:500 12px/1.3 Switzer,Arial,sans-serif; cursor:pointer; }
+.business-showcase__controls button:hover { color:#161616; }
+.business-showcase__controls button:focus-visible { outline:2px solid #161616; outline-offset:4px; }
+.business-showcase__sr { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+@media(max-width:1199px) {
+ /* Initial CSS reserves the new row before layout, preserving the original CTA. */
+ .business-showcase-page .framer-13kxl6w .framer-10ze9ym { margin-bottom:520px; }
+ .business-showcase__composition { padding:18px 16px 96px; gap:16px; }
+ .business-showcase__controls { left:16px; bottom:60px; }
+}
+@media(max-width:767px) {
+ .business-showcase-page .framer-13kxl6w .framer-10ze9ym { margin-bottom:calc((100vw - 44px) * 1.106 + 40px); }
+}
+@media(prefers-reduced-motion:reduce) {
+ .business-showcase-page .framer-13kxl6w .framer-10ze9ym { margin-bottom:0; }
+}
+
+/* Keep the authored four-line hero hook intact at desktop sizes. */
+@media(min-width:810px) { html body #hero h1.framer-styles-preset-1s8fn6c { --framer-font-size:64px!important; } }
+@media(min-width:810px) and (max-width:1199px) { html body #hero h1.framer-styles-preset-1s8fn6c { --framer-font-size:50px!important; } }
+@media(min-width:768px) and (max-width:809px) { html body #hero h1.framer-styles-preset-1s8fn6c { --framer-font-size:42px!important; } }
+
+/* About: remove the repeated identity block and its layout footprint. */
+.framer-ti4fmg .framer-131wefz { display:none!important; }
+/* Selected work opens sideways inside its column; swipe/scroll to later cards. */
+.framer-ti4fmg .framer-MnLjs { height:auto!important; }
+.framer-ti4fmg .framer-1n76p3r {
+ position:relative!important; width:100%!important; height:148px!important;
+ overflow-x:auto!important; overflow-y:hidden!important;
+ scrollbar-width:thin; overscroll-behavior-x:contain;
+}
+.framer-ti4fmg .framer-1n76p3r > div {
+ position:absolute!important; top:8px!important; bottom:auto!important; left:0!important;
+ width:calc(100% - 20px)!important;
+ transform:none!important;
+ transition:width .45s cubic-bezier(.22,1,.36,1),translate .45s cubic-bezier(.22,1,.36,1);
+}
+.framer-ti4fmg .framer-tda8zr-container { z-index:3!important; translate:0 0; }
+.framer-ti4fmg .framer-tsyghy-container { z-index:2!important; translate:8px 0; }
+.framer-ti4fmg .framer-1pk4stx-container { z-index:1!important; translate:16px 0; }
+.framer-ti4fmg .framer-MnLjs:is(:hover,:focus-within,.framer-v-ah5at9) .framer-1n76p3r > div { width:min(280px,calc(100% - 24px))!important; }
+.framer-ti4fmg .framer-MnLjs:is(:hover,:focus-within,.framer-v-ah5at9) .framer-tsyghy-container { translate:calc(100% + 12px) 0; }
+.framer-ti4fmg .framer-MnLjs:is(:hover,:focus-within,.framer-v-ah5at9) .framer-1pk4stx-container { translate:calc(200% + 24px) 0; }
+.framer-ti4fmg .framer-1n76p3r .framer-ctsyc2 { flex-wrap:wrap!important; gap:8px!important; }
+@media(prefers-reduced-motion:reduce) { .framer-ti4fmg .framer-1n76p3r > div { transition:none; } }
+
+
+/* Give Selected Work a full-width row below the About columns. */
+@media(min-width:768px) {
+ .framer-ti4fmg .framer-u6bdyx {
+  display:grid!important; grid-template-columns:2fr 3fr!important;
+  column-gap:64px!important; row-gap:32px!important; align-items:start!important;
+  --work-closed-width:calc((100% - 64px) * .4 - 20px);
+ }
+ .framer-ti4fmg .framer-bjgrlx { display:contents!important; }
+ .framer-ti4fmg .framer-1myufz4 { grid-column:1; grid-row:1; width:100%!important; }
+ .framer-ti4fmg .framer-1piggx9 { grid-column:2; grid-row:1; width:100%!important; }
+ .framer-ti4fmg .framer-17lv7gh { grid-column:1 / -1; grid-row:2; width:100%!important; }
+ .framer-ti4fmg .framer-1ku6r18-container { width:100%!important; }
+ .framer-ti4fmg .framer-1n76p3r { overflow:visible!important; }
+ .framer-ti4fmg .framer-1n76p3r > div { width:var(--work-closed-width)!important; }
+ .framer-ti4fmg .framer-MnLjs:is(:hover,:focus-within,.framer-v-ah5at9) .framer-1n76p3r > div {
+  width:calc((100% - 24px) / 3)!important;
+ }
+}
+@media(min-width:768px) and (max-width:991px) {
+ .framer-ti4fmg .framer-u6bdyx { grid-template-columns:1fr 1fr!important; column-gap:48px!important; --work-closed-width:calc((100% - 48px) / 2 - 20px); }
+ .framer-ti4fmg .framer-1n76p3r { height:176px!important; }
+}

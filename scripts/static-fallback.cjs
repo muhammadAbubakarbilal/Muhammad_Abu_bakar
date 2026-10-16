@@ -20,8 +20,8 @@ module.exports = (html, route) => {
   const project = projects.find(item => route === `/projects/${item.slug}`);
   const article = articles.find(item => route === `/blog/${item.slug}`);
   if (route === '/') {
-    title = 'Websites, AI & systems. Built for business.';
-    content = paragraph('I design websites and build AI assistants, CRM workflows and custom software that help businesses manage inquiries, connect their tools and reduce repetitive work.')
+    title = "Visitors shouldn't have to guess. You shouldn't have to chase";
+    content = paragraph('I help businesses make their websites clearer, handle inquiries more effectively, and reduce repetitive work through connected workflows and practical AI.')
       + `<section id="work"><h2>Selected work</h2>${projectList(projects.slice(0, 4))}</section>`
       + `<section id="services"><h2>What I build</h2>${services.map(service => `<h3>${escape(service.title)}</h3>${paragraph(service.description)}`).join('')}</section>`
       + `<section id="about"><h2>The person behind the work</h2>${paragraph(`${site.name} — ${site.role}. I start by understanding the business, then design the interface, connections and human handoffs around the work.`)}</section>`
