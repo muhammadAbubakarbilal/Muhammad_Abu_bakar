@@ -1,0 +1,1631 @@
+[
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Design that delivers results.",
+    "proposed": "Websites, AI & systems. Built for business.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Design that ",
+    "proposed": "Websites, AI & systems. ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "delivers results.",
+    "proposed": "Built for business.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Websites, AI and systems that work together.",
+    "proposed": "I design professional websites",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "I create everything your brand needs to attract customers and turn them into sales.",
+    "proposed": "and build AI assistants, CRM workflows, and custom software that help businesses manage inquiries, connect their tools, and reduce repetitive work.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Services that supercharge your business.",
+    "proposed": "What I build for businesses.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Services that ",
+    "proposed": "What I build ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "supercharge your business.",
+    "proposed": "for businesses.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "AI & Automation Engineer",
+    "proposed": "AI Systems & Automation Engineer",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Independent Build",
+    "proposed": "Automation Demo",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Portfolio",
+    "proposed": "Demo system",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Demo Architecture",
+    "proposed": "Assistant Demo",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Web Apps",
+    "proposed": "Custom Software",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "CRM Integrations",
+    "proposed": "CRM & Follow-up",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Software Consultation",
+    "proposed": "Systems Consulting",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Designing experiences",
+    "proposed": "Building solutions",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "that solve real problems.",
+    "proposed": "around real business needs.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Simple pricing. ",
+    "proposed": "Clear scope. ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Standout designs.",
+    "proposed": "Practical solutions.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Clear scope, practical solutions. Discuss a website, AI assistant or connected business workflow.",
+    "proposed": "Every project starts with what your business needs—whether that's a website, AI assistant, custom application, or connected workflow.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Websites, AI assistants and automation. A focused scope shaped around your goals.",
+    "proposed": "Websites, AI assistants, and connected systems built around a clearly defined project scope.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Comprehensive design services for any project scope. Ideal for one-time design needs or individual tasks.",
+    "proposed": "A focused website, application, or automation project with agreed deliverables, timelines, and review stages.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Connected digital systems ",
+    "proposed": "Digital solutions ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "for brands who move fast.",
+    "proposed": "for your business.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "From my blog,",
+    "proposed": "Practical insights on",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "design insights.",
+    "proposed": "websites, AI & systems.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "No fluff, just hard-hitting design projects.",
+    "proposed": "A selection of websites, AI assistants, and business systems I've worked on.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "My design insights & creative resources",
+    "proposed": "Practical notes on websites, AI & automation.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "A collection of articles sharing professional design expertise, creative processes, and strategic thinking. Browse these resources to elevate your brand and understand the impact thoughtful design can have on your business.",
+    "proposed": "Thoughts on building useful digital experiences, connecting business tools, and deciding where automation makes sense.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Schedule Now",
+    "proposed": "Let's Talk",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Book a call",
+    "proposed": "Let's Talk",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Fill out the form below or book a call.",
+    "proposed": "Share a few details to prepare an email you can review and send.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Fill out the form below or ",
+    "proposed": "Prepare an email you can review and send. ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "book a call.",
+    "proposed": "Or email me.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "cal.com",
+    "proposed": "mailto:abgakhar787@gmail.com",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "By submitting this form, you agree to the ",
+    "proposed": "Before preparing your email, read the ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Clear scope, practical solutions. ",
+    "proposed": "Every project starts with what your business needs—",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Discuss a website, AI assistant or connected business workflow.",
+    "proposed": "whether that's a website, AI assistant, custom application, or connected workflow.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Websites, AI assistants and automation. A focused ",
+    "proposed": "Websites, AI assistants, and connected systems",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "scope shaped around your goals.",
+    "proposed": "built around a clearly defined project scope.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Comprehensive design services for any project scope.",
+    "proposed": "A focused website, application, or automation project",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Ideal for one-time design needs or individual tasks.",
+    "proposed": "with agreed deliverables, timelines, and review stages.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Discuss a project",
+    "proposed": "Tell me about your project.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Independent website",
+    "proposed": "Independent website",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Demo automation",
+    "proposed": "Automation demo",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Demo assistant",
+    "proposed": "Assistant demo",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Demo workflow",
+    "proposed": "Workflow concept",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Got a cool idea?",
+    "proposed": "Have a project",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "in mind? Let’s explore what you need.",
+    "proposed": " in mind? Let’s explore what you need.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "About",
+    "current": "I build websites, AI assistants and connected business systems. My starting point is understanding the people, the problem and the outcome a business needs. Then I choose the interface and tools that fit the work.",
+    "proposed": "I build websites, AI assistants, and custom software. I start by understanding what a business needs, who will use the solution, and what needs to work better.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "About",
+    "current": "I focus on clear user experiences and practical integrations. From a website to a customer workflow, the interface and the information behind it should work together, with useful defaults and a clear next step.",
+    "proposed": "Sometimes that's a clearer website. Sometimes it's a connected CRM, better follow-up, or an automated workflow. The right solution depends on the actual process—not the latest tool.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "About",
+    "current": "I care about the details that make software useful: readable interfaces, sensible error handling and clear handoffs. Scope, design, build and review happen in stages, with room for feedback along the way.",
+    "proposed": "I focus on simple interfaces, reliable connections, and clear handoffs. You see the work in stages, understand what's being built, and stay involved in decisions that matter.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Design the interface and the workflow together, with a clear place for information and a clear next step.",
+    "proposed": "Start with the business goal and the people using the solution. Define the work before choosing tools.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Start with ",
+    "proposed": "Start with the ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "the people, the problem and the outcome.",
+    "proposed": "business goal and the people using the solution. ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": " Agree the scope before choosing the tools.",
+    "proposed": "Define the work before choosing tools.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Use AI where it helps, with defined limits and a handoff for important decisions and exceptions.",
+    "proposed": "Consider how the website, customer information, and everyday tools need to work together.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Use AI where it helps, with ",
+    "proposed": "Consider how the website, customer ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "defined limits and a handoff ",
+    "proposed": "information, and everyday tools ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "for important decisions and exceptions.",
+    "proposed": "need to work together.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Every page and interaction should help someone understand, decide or take the next step.",
+    "proposed": "Use AI where it helps, while keeping important decisions with the people responsible.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Use AI ",
+    "proposed": "Use AI ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "where it helps, with defined limits",
+    "proposed": "where it helps, while keeping important ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": " and a handoff for important decisions.",
+    "proposed": "decisions with the people responsible.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Share the work in stages so feedback can shape the solution while it is being built.",
+    "proposed": "Make the experience clear for customers, staff, and anyone who needs to use it.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Agree the launch, documentation and maintenance needs before putting the system into use.",
+    "proposed": "Share work in stages so feedback can shape the solution before delivery.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Agree the launch, documentation and maintenance ",
+    "proposed": "Share work in stages so feedback ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "needs before putting the system into use.",
+    "proposed": "can shape the solution before delivery.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Start with the people, the problem and the outcome. Agree what needs to be built before choosing the tools.",
+    "proposed": "Agree on launch, documentation, maintenance, and next steps before the project is completed.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "A useful handoff starts before launch. ",
+    "proposed": "Agree on launch, documentation, maintenance, and ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Agree the launch, handoff and maintenance",
+    "proposed": "next steps before the project ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": " before putting the system into use.",
+    "proposed": "is completed.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "I build websites, AI assistants, and custom software. I start by understanding what a business needs, who will use the solution, and what needs to work better.",
+    "proposed": "I build websites, AI assistants, and custom software. I start by understanding what a business needs, who will use the solution, and what needs to work better.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "I build websites, AI assistants and connected business systems. My starting ",
+    "proposed": "I build websites, AI assistants, and custom software. ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "point is understanding the people, the problem and the outcome a business needs. Then I choose the interface and tools that fit the work.",
+    "proposed": "start by understanding what a business needs, who will use the solution, and what needs to work better.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Sometimes that's a clearer website. Sometimes it's a connected CRM, better follow-up, or an automated workflow. The right solution depends on the actual process—not the latest tool.",
+    "proposed": "Sometimes that's a clearer website. Sometimes it's a connected CRM, better follow-up, or an automated workflow. The right solution depends on the actual process—not the latest tool.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "I focus on clear user experiences and practical integrations. ",
+    "proposed": "Sometimes that's a clearer website. Sometimes it's ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": " –",
+    "proposed": "",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "From a website to a customer workflow, the interface and the information behind it should work together, with useful defaults and a clear next step.",
+    "proposed": "a connected CRM, better follow-up, or an automated workflow. The right solution depends on the actual process—not the latest tool.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "I focus on simple interfaces, reliable connections, and clear handoffs. You see the work in stages, understand what's being built, and stay involved in decisions that matter.",
+    "proposed": "I focus on simple interfaces, reliable connections, and clear handoffs. You see the work in stages, understand what's being built, and stay involved in decisions that matter.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "I care about the details that make software ",
+    "proposed": "I focus on simple interfaces, reliable ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "useful: readable interfaces, sensible error handling and clear handoffs. Scope, design, build and review happen in stages, with room for feedback along the way.",
+    "proposed": "and clear handoffs. You see the work in stages, understand what's being built, and stay involved in decisions that matter.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "About",
+    "current": "I build websites, AI assistants, and custom software. ",
+    "proposed": "I build websites, AI assistants, and custom software.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "About",
+    "current": "start by understanding what a business needs, who will use the solution, and what needs to work better.",
+    "proposed": "I start by understanding what a business needs, who will use the solution, and what needs to work better.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "About",
+    "current": "Sometimes that's a clearer website. Sometimes it's ",
+    "proposed": "Sometimes that's a clearer website.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "About",
+    "current": "a connected CRM, better follow-up, or an automated workflow. The right solution depends on the actual process—not the latest tool.",
+    "proposed": "Sometimes it's a connected CRM, better follow-up, or an automated workflow. The right solution depends on the actual process—not the latest tool.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "About",
+    "current": "I focus on simple interfaces, reliable ",
+    "proposed": "I focus on simple interfaces, reliable connections, and clear handoffs.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "About",
+    "current": "and clear handoffs. You see the work in stages, understand what's being built, and stay involved in decisions that matter.",
+    "proposed": "You see the work in stages, understand what's being built, and stay involved in decisions that matter.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Every project starts with what your business needs—whether that's a website, AI assistant, custom application, or connected workflow.",
+    "proposed": "Every project starts with what your business needs—whether that's a website, AI assistant, custom application, or connected workflow.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Every project starts with what your business needs—",
+    "proposed": "Every project starts with what your ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "whether that's a website, AI assistant, custom application, or connected workflow.",
+    "proposed": "business needs—whether that's a website, AI assistant, custom application, or connected workflow.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Websites, AI assistants, and connected systems built around a clearly defined project scope.",
+    "proposed": "Websites, AI assistants, and connected systems built around a clearly defined project scope.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Websites, AI assistants, and connected systems",
+    "proposed": "Websites, AI assistants, and connected systems built ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "built around a clearly defined project scope.",
+    "proposed": "a clearly defined project scope.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "A focused website, application, or automation project with agreed deliverables, timelines, and review stages.",
+    "proposed": "A focused website, application, or automation project with agreed deliverables, timelines, and review stages.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "A focused website, application, or automation project",
+    "proposed": "A focused website, application, or automation project ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "with agreed deliverables, timelines, and review stages.",
+    "proposed": "with agreed deliverables, timelines, and review stages.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "“A clear interface, a reliable workflow and a person in the loop when it matters.”",
+    "proposed": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "“A clear interface, a reliable workflow ",
+    "proposed": "A clear interface, a reliable workflow ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "and a person in ",
+    "proposed": "and a person in ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "the loop when it matters.”",
+    "proposed": "the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "proposed": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "A clear interface, a reliable workflow ",
+    "proposed": "A clear interface, a reliable workflow ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "and a person in ",
+    "proposed": "and a person in ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "the loop when it matters.",
+    "proposed": "the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/essentia",
+    "section": "Copy",
+    "current": "“A clear interface, a reliable workflow and a person in the loop when it matters.”",
+    "proposed": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/essentia",
+    "section": "Copy",
+    "current": "“A clear interface, a reliable workflow ",
+    "proposed": "A clear interface, a reliable workflow ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/essentia",
+    "section": "Copy",
+    "current": "and a person in the loop when it matters.” ",
+    "proposed": "and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/essentia",
+    "section": "Copy",
+    "current": "\"",
+    "proposed": "",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/essentia",
+    "section": "Copy",
+    "current": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "proposed": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/essentia",
+    "section": "Copy",
+    "current": "A clear interface, a reliable workflow ",
+    "proposed": "A clear interface, a reliable workflow ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/essentia",
+    "section": "Copy",
+    "current": "and a person in the loop when it matters.",
+    "proposed": "and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/essentia",
+    "section": "Copy",
+    "current": "\"",
+    "proposed": "",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/quantum",
+    "section": "Copy",
+    "current": "“A clear interface, a reliable workflow and a person in the loop when it matters.”",
+    "proposed": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/quantum",
+    "section": "Copy",
+    "current": "“A clear interface, a reliable workflow and ",
+    "proposed": "A clear interface, a reliable workflow and ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/quantum",
+    "section": "Copy",
+    "current": "a person in the loop ",
+    "proposed": "a person in the loop ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/quantum",
+    "section": "Copy",
+    "current": ". Outstanding!\"",
+    "proposed": "when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/quantum",
+    "section": "Copy",
+    "current": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "proposed": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/quantum",
+    "section": "Copy",
+    "current": "A clear interface, a reliable workflow and ",
+    "proposed": "A clear interface, a reliable workflow and ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/quantum",
+    "section": "Copy",
+    "current": "a person in the loop ",
+    "proposed": "a person in the loop ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/quantum",
+    "section": "Copy",
+    "current": "when it matters.",
+    "proposed": "when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/orbital",
+    "section": "Copy",
+    "current": "“A clear interface, a reliable workflow and a person in the loop when it matters.”",
+    "proposed": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/orbital",
+    "section": "Copy",
+    "current": "“A clear interface, a reliable workflow and a ",
+    "proposed": "A clear interface, a reliable workflow and a ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/orbital",
+    "section": "Copy",
+    "current": "person in the loop when it matters.” ",
+    "proposed": "person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/orbital",
+    "section": "Copy",
+    "current": "\"",
+    "proposed": "",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/orbital",
+    "section": "Copy",
+    "current": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "proposed": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/orbital",
+    "section": "Copy",
+    "current": "A clear interface, a reliable workflow and a ",
+    "proposed": "A clear interface, a reliable workflow and a ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/orbital",
+    "section": "Copy",
+    "current": "person in the loop when it matters.",
+    "proposed": "person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/orbital",
+    "section": "Copy",
+    "current": "\"",
+    "proposed": "",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/axiom",
+    "section": "Copy",
+    "current": "“A clear interface, a reliable workflow and a person in the loop when it matters.”",
+    "proposed": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/axiom",
+    "section": "Copy",
+    "current": "\"Our website ",
+    "proposed": "A clear ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/axiom",
+    "section": "Copy",
+    "current": "where it helps, while keeping important ",
+    "proposed": "interface, a reliable workflow and a person ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/axiom",
+    "section": "Copy",
+    "current": "in the loop when it matters.”",
+    "proposed": "in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/axiom",
+    "section": "Copy",
+    "current": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "proposed": "A clear interface, a reliable workflow and a person in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/axiom",
+    "section": "Copy",
+    "current": "A clear ",
+    "proposed": "A clear ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/axiom",
+    "section": "Copy",
+    "current": "interface, a reliable workflow and a person ",
+    "proposed": "interface, a reliable workflow and a person ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/axiom",
+    "section": "Copy",
+    "current": "in the loop when it matters.",
+    "proposed": "in the loop when it matters.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Start with the business goal and the people using the solution. Define the work before choosing tools.",
+    "proposed": "Start with the business goal and the people using the solution. Define the work before choosing tools.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Start with the ",
+    "proposed": "Start with the ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "business goal and the people using the solution. ",
+    "proposed": "business goal and the people using the solution. ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Define the work before choosing tools.",
+    "proposed": "Define the work before choosing tools.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Consider how the website, customer information, and everyday tools need to work together.",
+    "proposed": "Consider how the website, customer information, and everyday tools need to work together.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Consider how the website, customer ",
+    "proposed": "Consider how the website, customer ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "information, and everyday tools ",
+    "proposed": "information, and everyday tools ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "need to work together.",
+    "proposed": "need to work together.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Use AI where it helps, while keeping important decisions with the people responsible.",
+    "proposed": "Use AI where it helps, while keeping important decisions with the people responsible.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Use AI ",
+    "proposed": "Use AI ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "interface, a reliable workflow and a person ",
+    "proposed": "where it helps, while keeping important ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "decisions with the people responsible.",
+    "proposed": "decisions with the people responsible.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Make the experience clear for customers, staff, and anyone who needs to use it.",
+    "proposed": "Make the experience clear for customers, staff, and anyone who needs to use it.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Share work in stages so feedback can shape the solution before delivery.",
+    "proposed": "Share work in stages so feedback can shape the solution before delivery.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Share work in stages so feedback ",
+    "proposed": "Share work in stages so feedback ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "can shape the solution before delivery.",
+    "proposed": "can shape the solution before delivery.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Agree on launch, documentation, maintenance, and next steps before the project is completed.",
+    "proposed": "Agree on launch, documentation, maintenance, and next steps before the project is completed.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "Agree on launch, documentation, maintenance, and ",
+    "proposed": "Agree on launch, documentation, maintenance, and ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "next steps before the project ",
+    "proposed": "next steps before the project ",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/",
+    "section": "Copy",
+    "current": "is completed.",
+    "proposed": "is completed.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/personal-engineering-studio",
+    "section": "Project headline",
+    "current": "A focused engineering portfolio",
+    "proposed": "A personal portfolio built around the work.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/personal-engineering-studio",
+    "section": "Project introduction",
+    "current": "A responsive Next.js portfolio with concise service pages, honest project studies, an interactive workflow and an accessible project inquiry form.",
+    "proposed": "An independent website presenting my work in websites, AI assistants, and business systems. Responsive pages help visitors explore the services and clearly labeled project studies.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/personal-engineering-studio",
+    "section": "Project section 1",
+    "current": "Scattered attachments and incomplete intake forms make it difficult to know when a project is ready to start. This design brings the checklist and supporting information together.",
+    "proposed": "The portfolio brings project summaries, service information, and an inquiry path into one place. Demo studies are identified separately from the independent website build.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "/projects/personal-engineering-studio",
+    "section": "Project section 2",
+    "current": "Inspects uploaded PDFs and spreadsheets to verify required legal fields and data formats, alerting the client immediately if an invalid file is submitted.",
+    "proposed": "The interface adapts to desktop and mobile screens, with animated project previews and readable case studies. Each section helps visitors understand the work and decide what to explore next.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "/projects/personal-engineering-studio",
+    "section": "Project section 3",
+    "current": "Account managers and strategy leads conduct the kickoff meeting and guide all creative and consultative execution.",
+    "proposed": "The inquiry form prepares an email draft for the visitor to review and send. Scope, timing, and pricing are discussed directly before any project commitments.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "/projects/agency-lead-operations",
+    "section": "Project headline",
+    "current": "Connecting inquiries to the next step",
+    "proposed": "A clearer path from inquiry to follow-up.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/agency-lead-operations",
+    "section": "Project introduction",
+    "current": "An end-to-end inbound pipeline combining Next.js webhook capture, LLM-based company & budget qualification, instant CRM synchronization, and dynamic calendar routing based on deal size.",
+    "proposed": "An automation demo exploring how an agency could organize incoming inquiries, assist with qualification, and keep follow-up information together. It is not a verified client deployment.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/agency-lead-operations",
+    "section": "Project introduction",
+    "current": "An inquiry can lose context as it moves from a website to email, a CRM and a calendar. This study explores a single lead-handling flow for an agency.",
+    "proposed": "The proposed workflow captures inquiry details and organizes them for review. A shared customer record gives the team context for the next conversation.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/agency-lead-operations",
+    "section": "Project section 1",
+    "current": "Scattered attachments and incomplete intake forms make it difficult to know when a project is ready to start. This design brings the checklist and supporting information together.",
+    "proposed": "The proposed workflow captures inquiry details and organizes them for review. A shared customer record gives the team context for the next conversation.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "/projects/agency-lead-operations",
+    "section": "Project section 2",
+    "current": "Inspects uploaded PDFs and spreadsheets to verify required legal fields and data formats, alerting the client immediately if an invalid file is submitted.",
+    "proposed": "AI can help summarize an inquiry and suggest a qualification category. Defined workflow rules would pass reviewed information to the CRM and support follow-up tasks.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "/projects/agency-lead-operations",
+    "section": "Project section 3",
+    "current": "Account managers and strategy leads conduct the kickoff meeting and guide all creative and consultative execution.",
+    "proposed": "People review uncertain inquiries, approve important decisions, and handle the sales conversation. Delivery, integrations, and follow-up rules would be confirmed for the business.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "/projects/local-service-receptionist",
+    "section": "Project headline",
+    "current": "A clearer path for customer inquiries",
+    "proposed": "An AI receptionist with a human handoff.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/local-service-receptionist",
+    "section": "Project introduction",
+    "current": "A custom, grounded conversational assistant embedded on the company website that verifies service areas, diagnoses problem urgency, provides transparent price ranges, and schedules field technician arrivals.",
+    "proposed": "An assistant demo for routine service inquiries. The concept collects useful details and directs conversations to a person when the request needs judgment or confirmation.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/local-service-receptionist",
+    "section": "Project introduction",
+    "current": "Service businesses need a way to collect inquiries when a person is unavailable. This study explores routine answers and booking requests with a clear human handoff.",
+    "proposed": "Customers could ask routine questions and explain what they need. The assistant would use approved business information and collect details for the team.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/local-service-receptionist",
+    "section": "Project section 1",
+    "current": "Scattered attachments and incomplete intake forms make it difficult to know when a project is ready to start. This design brings the checklist and supporting information together.",
+    "proposed": "Customers could ask routine questions and explain what they need. The assistant would use approved business information and collect details for the team.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "/projects/local-service-receptionist",
+    "section": "Project section 2",
+    "current": "Inspects uploaded PDFs and spreadsheets to verify required legal fields and data formats, alerting the client immediately if an invalid file is submitted.",
+    "proposed": "The proposed workflow keeps the conversation and relevant customer details together. Appointment requests would be passed on for confirmation rather than treated as guaranteed bookings.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "/projects/local-service-receptionist",
+    "section": "Project section 3",
+    "current": "Account managers and strategy leads conduct the kickoff meeting and guide all creative and consultative execution.",
+    "proposed": "A person handles exceptions, confirms availability and pricing, and takes over important conversations. This demo does not establish autonomous booking or service accuracy.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "/projects/b2b-customer-onboarding",
+    "section": "Project headline",
+    "current": "A connected customer onboarding workflow",
+    "proposed": "A more organized start for every project.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/b2b-customer-onboarding",
+    "section": "Project introduction",
+    "current": "A dedicated self-service onboarding portal that guides clients step-by-step, validates uploaded assets with AI OCR, creates project management workspaces automatically, and dispatches reminder nudges.",
+    "proposed": "A workflow concept for business customer onboarding. It brings intake details, requested documents, and a readiness checklist into a clearer handoff for the team.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "/projects/b2b-customer-onboarding",
+    "section": "Project section 1",
+    "current": "Scattered attachments and incomplete intake forms make it difficult to know when a project is ready to start. This design brings the checklist and supporting information together.",
+    "proposed": "The proposed intake gathers the information needed to begin a project. A checklist makes missing details and outstanding documents easier to identify.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "/projects/b2b-customer-onboarding",
+    "section": "Project section 2",
+    "current": "Inspects uploaded PDFs and spreadsheets to verify required legal fields and data formats, alerting the client immediately if an invalid file is submitted.",
+    "proposed": "Document checks could flag incomplete information for review. Reminders and status updates would help customers and staff understand what is still needed.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "/projects/b2b-customer-onboarding",
+    "section": "Project section 3",
+    "current": "Account managers and strategy leads conduct the kickoff meeting and guide all creative and consultative execution.",
+    "proposed": "The responsible team reviews documents, resolves exceptions, and confirms readiness before kickoff. The concept describes a proposed workflow, not a deployed client system.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Route-scoped original CMS rich-text strings",
+    "layout": "Existing paragraph nodes retained"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Muhammad Abu Bakar — AI Systems & Automation Engineer",
+    "proposed": "Muhammad Abu Bakar | Websites, AI & Business Systems",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  },
+  {
+    "route": "shared",
+    "section": "Copy",
+    "current": "Launch your design business in hours with this conversion-optimized portfolio template. Built with Framer's powerful CMS, it combines stunning project showcases with client management tools to help you land more clients and grow your business.",
+    "proposed": "I design professional websites and build AI assistants, CRM workflows, automation, and custom software to help businesses improve their digital operations.",
+    "source": "scripts/business-content.cjs",
+    "mechanism": "Original literal / rich-text run mapping",
+    "layout": "Existing nodes and emphasis retained; wording may reflow"
+  }
+]

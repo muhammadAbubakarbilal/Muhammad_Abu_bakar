@@ -1,0 +1,130 @@
+[
+  {
+    "host": "https://launchfolio.framer.website",
+    "label": "load",
+    "name": "Nav Default",
+    "width": 549.953125,
+    "y": 0,
+    "headingVisible": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "host": "https://launchfolio.framer.website",
+    "label": "down",
+    "name": "Nav Closed",
+    "width": 232.546875,
+    "y": 1400,
+    "headingVisible": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "host": "https://launchfolio.framer.website",
+    "label": "up",
+    "name": "Nav Default",
+    "width": 549.953125,
+    "y": 900,
+    "headingVisible": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "host": "https://launchfolio.framer.website",
+    "label": "hover",
+    "name": "Nav Default",
+    "width": 549.953125,
+    "y": 900,
+    "headingVisible": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "host": "http://127.0.0.1:3201",
+    "label": "load",
+    "name": "Nav Default",
+    "width": 579.375,
+    "y": 0,
+    "headingVisible": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "host": "http://127.0.0.1:3201",
+    "label": "down",
+    "name": "Nav Closed",
+    "width": 261.96875,
+    "y": 1400,
+    "headingVisible": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "host": "http://127.0.0.1:3201",
+    "label": "up",
+    "name": "Nav Default",
+    "width": 579.375,
+    "y": 900,
+    "headingVisible": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "host": "http://127.0.0.1:3201",
+    "label": "hover",
+    "name": "Nav Default",
+    "width": 579.375,
+    "y": 900,
+    "headingVisible": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  }
+]

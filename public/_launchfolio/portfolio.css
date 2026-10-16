@@ -1,0 +1,169 @@
+/* Owner content only. Framer's responsive layout and motion remain authoritative. */
+/* No verified review score was supplied for this personal portfolio. */
+[data-framer-name="Rating / Text"] > [data-framer-name="Stars"]{display:none!important}
+/* The captured footer cycles words even when reduced motion is requested. */
+@media(prefers-reduced-motion:reduce){
+ [name="Text Cycle"] > [data-framer-component-type="RichTextContainer"]{display:none!important}
+ [name="Text Cycle"] > [data-framer-component-type="RichTextContainer"]:first-child{display:block!important;opacity:1!important;filter:none!important;transform:none!important}
+}
+[data-framer-name="Free"],#\_\_framer-badge-container,[data-framer-name="Framer Badge"],a[href*="buy.polar.sh"],a[href*="launchnow.design"],a[href="https://www.framer.com"]{display:none!important}
+.portfolio-draft{margin-top:20px;padding:20px;border:1px solid #ddd;border-radius:12px;background:#fff;color:#111;font:14px/1.5 Switzer,Arial,sans-serif}
+.portfolio-draft a{display:inline-block;margin-top:12px;padding:10px 18px;border-radius:24px;background:#111;color:#fff;text-decoration:none}
+/* Replace template client marks without changing the ticker's measurements. */
+[data-framer-name="Logos"] li{position:relative}
+[data-framer-name="Logos"] li svg{visibility:hidden}
+[data-framer-name="Logos"] li::after{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:600 26px/1 Switzer,Arial,sans-serif;color:#6b6b6b;content:'Next.js'}
+[data-framer-name="Logos"] li:nth-child(6n+2)::after{content:'React'}
+[data-framer-name="Logos"] li:nth-child(6n+3)::after{content:'TypeScript'}
+[data-framer-name="Logos"] li:nth-child(6n+4)::after{content:'Node.js'}
+[data-framer-name="Logos"] li:nth-child(6n+5)::after{content:'APIs'}
+[data-framer-name="Logos"] li:nth-child(6n)::after{content:'PostgreSQL'}
+
+/* Readable copy across every captured page, including hydrated overlays.
+   Keep display headings and their animation measurements unchanged. */
+html body .framer-styles-preset-455vy9,
+html body .framer-styles-preset-3j1c0u {
+ --framer-font-size:17px!important;
+ --framer-line-height:130%!important;
+ --framer-letter-spacing:0px!important;
+}
+html body .framer-styles-preset-1pvr9s {
+ --framer-font-size:20px!important;
+ --framer-line-height:155%!important;
+}
+html body .framer-styles-preset-1igwnwn {
+ --framer-font-size:22px!important;
+ --framer-line-height:150%!important;
+}
+html body input,html body textarea,html body select {
+ font-size:18px!important;
+ line-height:1.5!important;
+}
+.portfolio-draft{font-size:18px;line-height:1.5}
+/* Fluid page sections replace the reference's fixed 1080px canvas. */
+/* One continuous hero backdrop, with the portrait centered beside the cards. */
+@media(min-width:810px){
+ .framer-13kxl6w::before{
+  content:"";
+  position:absolute;
+  inset:0 0 108px 24%;
+  pointer-events:none;
+  background:linear-gradient(90deg,#fafafa 0%,rgba(250,250,250,0) 38%),linear-gradient(0deg,#fafafa 0%,rgba(250,250,250,0) 28%),linear-gradient(125deg,#d8cec0 0%,#b1bfc1 55%,#8d9fa5 100%);
+ }
+ .framer-13kxl6w::after{
+  content:"";
+  position:absolute;
+  top:0;
+  right:26%;
+  bottom:108px;
+  width:50%;
+  pointer-events:none;
+  background-image:url('/assets/abu_bakar.jpg');
+  background-size:cover;
+  background-position:center 28%;
+  mask-image:linear-gradient(90deg,transparent 0%,#000 30%,#000 65%,transparent 100%),linear-gradient(0deg,transparent 0%,#000 28%);
+  mask-composite:intersect;
+  opacity:.8;
+ }
+ .framer-13kxl6w>.framer-10ze9ym,.framer-13kxl6w>.framer-w2n11f{position:relative;z-index:1}
+}
+/* Card copy uses a separate reference preset from the main body text. */
+html body .framer-5ff2fu .framer-styles-preset-4e019n,
+html body .framer-7zs1j1 p {
+ --framer-font-size:22px!important;
+ --framer-line-height:155%!important;
+ --framer-letter-spacing:0px!important;
+}
+html body .framer-5ff2fu .framer-styles-preset-3j1c0u,
+html body .framer-5ff2fu .framer-styles-preset-455vy9 {
+ --framer-font-size:18px!important;
+ --framer-line-height:140%!important;
+}
+footer [data-framer-name="Fit Text"]{display:none!important}
+html body footer .framer-qoxyj2{padding-bottom:64px!important}
+@media(max-width:600px){
+ html body .framer-5ff2fu .framer-styles-preset-4e019n,
+ html body .framer-7zs1j1 p{--framer-font-size:20px!important}
+ html body footer .framer-qoxyj2{padding-bottom:32px!important}
+}
+html body [data-framer-name="Inside Container"],
+html body [data-framer-name="Inside container"],
+html body [data-framer-name="Insider Container"],
+html body [data-framer-name="Main Container"],
+html body [data-framer-name="Happy Projects, Header, & Description"],
+html body [data-framer-name="Articles"],
+html body .framer-17mjsm2,
+html body .framer-1qyphv4,
+html body [data-framer-name="Terms"],
+html body [data-framer-name="Privacy Policy"] {
+ max-width:none!important;
+ width:100%!important;
+}
+html body .framer-styles-preset-1xqd5um{--framer-font-size:24px!important}
+html body .framer-17mjsm2{left:0!important;right:0!important}
+@media(min-width:1200px){
+ .framer-19y3y9x .framer-mdi5qa{
+  scale:var(--portfolio-preview-scale,1);
+  translate:0 var(--portfolio-preview-offset,0px);
+ }
+ .framer-z7yvk9> [data-framer-component-type="RichTextContainer"]:has(p){width:min(44vw,620px)!important}
+}
+html body .framer-styles-preset-3qmsso{--framer-font-size:26px!important}
+@media(min-width:810px){
+ html body .framer-styles-preset-1s8fn6c{--framer-font-size:80px!important}
+ html body .framer-styles-preset-4xe5jg{--framer-font-size:70px!important}
+ html body .framer-styles-preset-mss9k0{--framer-font-size:54px!important}
+ html body .framer-styles-preset-1nbpq7r,
+ html body .framer-styles-preset-1v15im0{--framer-font-size:36px!important}
+}
+@media(max-width:480px){
+ [data-framer-name="Happy Projects"]{flex-wrap:wrap!important;max-width:100%!important;row-gap:12px!important}
+ [data-framer-name="Happy Projects"]>div{max-width:100%!important}
+}
+
+/* Compact section rhythm; keep the animated homepage hero's geometry intact. */
+html body :is(
+ [data-framer-name="Latest Projects"], section[data-framer-name="Services"],
+ section[data-framer-name="Pricing"], [data-framer-name="About Me"],
+ [data-framer-name="Testimonials"], [data-framer-name="Articles"],
+ section[data-framer-name="FAQ"], [data-framer-name="All Projects"],
+ [data-framer-name="Schedule Call"], [data-framer-name="Images"],
+ [data-framer-name="Testimonial"], [data-framer-name="Previous & Next"],
+ [data-framer-name="Blog Content"], [data-framer-name="More Articles"],
+ [data-framer-name="Big Quote Testimonial"]
+) { padding-block:40px!important; }
+html body :is(
+ [data-framer-name="Inside Container"], [data-framer-name="Inside container"],
+ [data-framer-name="Insider Container"], [data-framer-name="Heading / Techstack"],
+ [data-framer-name="Pricing / How it works"], [data-framer-name="Header & FAQ Items"],
+ [data-framer-name="Picture / Work History"], [data-framer-name="Content Container"],
+ [data-framer-name="Steps"]
+) { row-gap:32px!important; }
+html body :is(.framer-5i51mi,.framer-16rrs1j,.framer-1qyphv4,.framer-e9qqv) {
+ padding-top:112px!important;
+ padding-bottom:24px!important;
+ row-gap:32px!important;
+}
+html body .framer-QST2I.framer-zz9xcl { gap:40px!important;padding:0!important; }
+html body .framer-14puvi9 { padding-block:32px!important; }
+html body footer .framer-qoxyj2 { padding-block:32px!important; }
+@media(max-width:809px){
+ html body :is(
+  [data-framer-name="Latest Projects"], section[data-framer-name="Services"],
+  section[data-framer-name="Pricing"], [data-framer-name="About Me"],
+  [data-framer-name="Testimonials"], [data-framer-name="Articles"],
+  section[data-framer-name="FAQ"], [data-framer-name="All Projects"],
+  [data-framer-name="Schedule Call"], [data-framer-name="Images"],
+  [data-framer-name="Testimonial"], [data-framer-name="Previous & Next"],
+  [data-framer-name="Blog Content"], [data-framer-name="More Articles"],
+  [data-framer-name="Big Quote Testimonial"]
+ ) { padding-block:24px!important; }
+ html body :is(
+  [data-framer-name="Inside Container"], [data-framer-name="Inside container"],
+  [data-framer-name="Insider Container"], [data-framer-name="Heading / Techstack"],
+  [data-framer-name="Pricing / How it works"], [data-framer-name="Header & FAQ Items"],
+  [data-framer-name="Picture / Work History"], [data-framer-name="Content Container"],
+  [data-framer-name="Steps"]
+ ) { row-gap:24px!important; }
+}
+

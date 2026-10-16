@@ -1,0 +1,49 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start portfolio development server",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": [
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Preview verified production build",
+			"type": "shell",
+			"command": "$env:NEXT_OUTPUT_DIR='.next-production'; npm.cmd run start -- --hostname 127.0.0.1 --port 3201",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Build portfolio",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": [
+				"run",
+				"build"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Preview content update",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": [
+				"run",
+				"start",
+				"--",
+				"--hostname",
+				"127.0.0.1",
+				"--port",
+				"3201"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}

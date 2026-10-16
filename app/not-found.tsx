@@ -1,18 +1,18 @@
-import React from 'react';
-import Link from 'next/link';
-import { ArrowLeft, Home } from 'lucide-react';
+import React from "react";
+import Link from "next/link";
+import { ArrowLeft, Home } from "lucide-react";
 
 export default function NotFound() {
   return (
     <div className="flex-1 flex flex-col items-center justify-center px-4 py-24 text-center max-w-2xl mx-auto">
       <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-6">
-        404 • SYSTEM PATH NOT FOUND
+        404 • PAGE NOT FOUND
       </div>
       <h1 className="text-4xl sm:text-5xl font-extrabold text-zinc-100 tracking-tight mb-4">
         Page Not Found
       </h1>
       <p className="text-zinc-400 text-sm sm:text-base mb-8 max-w-md">
-        The requested endpoint or system page does not exist or has been relocated.
+        This page does not exist. Explore my work or return to the homepage.
       </p>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <Link
@@ -27,7 +27,7 @@ export default function NotFound() {
           className="inline-flex items-center gap-2 px-5 py-2.5 text-xs sm:text-sm font-semibold rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-700 text-zinc-200 transition-colors"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>Explore Systems</span>
+          <span>Explore Services</span>
         </Link>
       </div>
     </div>

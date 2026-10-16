@@ -1,0 +1,305 @@
+{
+  "fonts": [
+    "@font-face { font-family: Switzer; src: url(\"https://framerusercontent.com/third-party-assets/fontshare/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.woff2\"); font-display: swap; font-style: normal; font-weight: 600; }",
+    "@font-face { font-family: Switzer; src: url(\"https://framerusercontent.com/third-party-assets/fontshare/wf/A54N3N7J5AY6YOPYJKLHF5VH7G7HSSUN/ERWIWIB434FMFHQFSSBD233EP3C62HOI/TOHQHMLIEIPKVF2JPM6SVKXFYGO5G2TJ.woff2\"); font-style: normal; font-weight: 900; }",
+    "@font-face { font-family: Switzer; src: url(\"https://framerusercontent.com/third-party-assets/fontshare/wf/FQHNKZEV35SAMFWVFCFSORJXUNHNILL4/X4YCR4COAQTK5XB6JCDDBS7Q33AQWUAE/J7XVDQ2IJENINPUAVBDJNH3VEXVDSPQQ.woff2\"); font-style: italic; font-weight: 900; }",
+    "@font-face { font-family: Switzer; src: url(\"https://framerusercontent.com/third-party-assets/fontshare/wf/2UC2M25RQ2XRSGCBJRQ2G5SNXCROECQB/QJT3T33NN372363FJY5EO5D63GKDKLDK/IOAFMDAPNX3S6OL2GYQQJ2FFJIRSVB3N.woff2\"); font-display: swap; font-style: italic; font-weight: 600; }",
+    "@font-face { font-family: Switzer; src: url(\"https://framerusercontent.com/third-party-assets/fontshare/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.woff2\"); font-display: swap; font-style: normal; font-weight: 500; }",
+    "@font-face { font-family: Switzer; src: url(\"https://framerusercontent.com/third-party-assets/fontshare/wf/QMRBNVYKDJEZ66DA22SPWH5EVVYACHCU/ZHMXHHA546NDNEHJN5RPZX5KISJY5CWF/C6VLICDGQWYKV6YT65TM5G3OVN4AOZBN.woff2\"); font-display: swap; font-style: italic; font-weight: 500; }",
+    "@font-face { font-family: Switzer; src: url(\"https://framerusercontent.com/third-party-assets/fontshare/wf/HBNTRIISA5MEXGL5WPYI7CV2HIWTDV3Q/YDPDINVT673XLXNSTMLG4JNCZZMVVNPN/Y7SCNZJOT2MW5ADSGOFLDGH4TNL4JCQY.woff2\"); font-display: swap; font-style: normal; font-weight: 700; }",
+    "@font-face { font-family: Switzer; src: url(\"https://framerusercontent.com/third-party-assets/fontshare/wf/LVPXCMXCWY3V7PSXRMGRQUJDAS2DT47E/BPEVRT2HG7PPVVUS7A67MZQQZW6LR6A5/A7AS3UPAGLC7MDVC67SBNTE5FGF2Z2RG.woff2\"); font-display: swap; font-style: italic; font-weight: 700; }",
+    "@font-face { font-family: \"Switzer Placeholder\"; src: local(\"Arial\"); ascent-override: 96.67%; descent-override: 24.66%; line-gap-override: 8.88%; size-adjust: 101.38%; }"
+  ],
+  "images": [
+    {
+      "src": "https://framerusercontent.com/images/pKKKvDTDIMbGXt4SKNGc5PEgrkU.jpg?width=64&height=64",
+      "alt": "Headshot of *Designer Name*"
+    },
+    {
+      "src": "https://framerusercontent.com/images/pKKKvDTDIMbGXt4SKNGc5PEgrkU.jpg?width=64&height=64",
+      "alt": "Headshot of *Designer Name*"
+    },
+    {
+      "src": "https://framerusercontent.com/images/ARmQOa71EvidN3oYWq9jWzn9OE.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/W7oQ4BScxWhGC5oVOzKGxVGAD4.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/UqrSyX3j0KDY0YY2JZCQuc7Wzzg.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/wFJgmAuVHn37SCJR5MDBtfbFdY.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/K6cUNifhQFa6qEX3kqNwfqMkiY.jpg?scale-down-to=512&width=6220&height=6220",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/wn56GiYIGN9okbMTZQ8fV2UQ0.jpg?scale-down-to=512&width=1600&height=1200",
+      "alt": "Kora website shown on a desktop monitor, with the headline Your growth partner for companies ready to scale."
+    },
+    {
+      "src": "https://framerusercontent.com/images/tBF8hMQFxONWA4CXtHf3R4.jpg?scale-down-to=512&width=1600&height=1200",
+      "alt": "KYMA website shown on a desktop monitor, with the headline Scale your operations 10x without hiring 100 people."
+    },
+    {
+      "src": "https://framerusercontent.com/images/AZe7hFsRlGAWp9spF25RMEwS0gA.jpg?scale-down-to=512&width=1600&height=1200",
+      "alt": "Mugen Studio website shown on a desktop monitor in a dark layout."
+    },
+    {
+      "src": "https://framerusercontent.com/images/q3ruKmoVYmFXP9EeyZlQPnTDuVw.jpg?scale-down-to=512&width=1600&height=1200",
+      "alt": "Axiom website shown on a desktop monitor, with a portrait of a man and the headline Built for real performance."
+    },
+    {
+      "src": "https://framerusercontent.com/images/wFJgmAuVHn37SCJR5MDBtfbFdY.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/qtdLa7QbKqPky8NoUcgNPzcmgCU.png?width=768&height=1024",
+      "alt": "Portrait of Joseph Alexander"
+    },
+    {
+      "src": "https://framerusercontent.com/images/bwCVICcrKWXkOTrVdIrYz2EsNc.png?scale-down-to=512&width=2550&height=2550",
+      "alt": "Lightning Bolt"
+    },
+    {
+      "src": "https://framerusercontent.com/images/ARmQOa71EvidN3oYWq9jWzn9OE.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/W7oQ4BScxWhGC5oVOzKGxVGAD4.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/UqrSyX3j0KDY0YY2JZCQuc7Wzzg.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/wFJgmAuVHn37SCJR5MDBtfbFdY.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/K6cUNifhQFa6qEX3kqNwfqMkiY.jpg?scale-down-to=512&width=6220&height=6220",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/3IIKOQ9VkCZyf0KlL2N5yBg1cQ.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/wFJgmAuVHn37SCJR5MDBtfbFdY.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/9GxBhKhBKO9rBguUErEAr1S5msg.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ua8czSsCWvNqdtO61P3LQNscwQo.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/lAY61a3VYJBYnJJvnRiHal534g.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/v6i3NQRMklaSho2NutbJ0C5YGtA.jpg?width=76&height=76",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/pKKKvDTDIMbGXt4SKNGc5PEgrkU.jpg?width=64&height=64",
+      "alt": "Headshot of *Designer Name*"
+    },
+    {
+      "src": "https://framerusercontent.com/images/d0BwZFrtELCoWDdpc1wN5g0q070.jpeg?scale-down-to=1024&width=1920&height=2400",
+      "alt": "Black ink shape spreading across a white background."
+    },
+    {
+      "src": "https://framerusercontent.com/images/dVqbMbuH3GY6mRNJHUM7kJzzaUw.jpeg?width=1600&height=791",
+      "alt": "Orange race car blurred by speed on a dark track."
+    },
+    {
+      "src": "https://framerusercontent.com/images/RdmIayKtrkKr800oZG5FkWDoJQw.jpeg?width=1600&height=1377",
+      "alt": "Woman with a black bob and red lips reflected in layered glass."
+    },
+    {
+      "src": "https://framerusercontent.com/images/M8GPTQEgwDo7tuEUdEAzTRzQ5w.jpg?scale-down-to=512&width=1600&height=1200",
+      "alt": "Launchfolio free portfolio Framer template hero section"
+    }
+  ],
+  "elements": [
+    {
+      "text": "Joseph AlexanderWorkServicesPricingBlogContact",
+      "css": "",
+      "rect": {
+        "x": 603.7265625,
+        "y": 24,
+        "width": 232.546875,
+        "height": 56,
+        "top": 24,
+        "right": 836.2734375,
+        "bottom": 80,
+        "left": 603.7265625
+      }
+    },
+    {
+      "text": "Design that delivers results.",
+      "css": "",
+      "rect": {
+        "x": 224,
+        "y": 198,
+        "width": 496,
+        "height": 136.8125,
+        "top": 198,
+        "right": 720,
+        "bottom": 334.8125,
+        "left": 224
+      }
+    },
+    {
+      "text": "Latest Projects",
+      "css": "",
+      "rect": {
+        "x": 224,
+        "y": 842.421875,
+        "width": 992,
+        "height": 64,
+        "top": 842.421875,
+        "right": 1216,
+        "bottom": 906.421875,
+        "left": 224
+      }
+    },
+    {
+      "text": "Services that supercharge your business.",
+      "css": "",
+      "rect": {
+        "x": 224,
+        "y": 2528.625,
+        "width": 556.796875,
+        "height": 192,
+        "top": 2528.625,
+        "right": 780.796875,
+        "bottom": 2720.625,
+        "left": 224
+      }
+    },
+    {
+      "text": "Designing experiencesthat solve real problems.",
+      "css": "",
+      "rect": {
+        "x": 224,
+        "y": 3245.234375,
+        "width": 992,
+        "height": 128,
+        "top": 3245.234375,
+        "right": 1216,
+        "bottom": 3373.234375,
+        "left": 224
+      }
+    },
+    {
+      "text": "Simple pricing. Standout designs.",
+      "css": "",
+      "rect": {
+        "x": 224,
+        "y": 4416.625,
+        "width": 645.328125,
+        "height": 128,
+        "top": 4416.625,
+        "right": 869.328125,
+        "bottom": 4544.625,
+        "left": 224
+      }
+    },
+    {
+      "text": "Hear from what my clients have to say.",
+      "css": "",
+      "rect": {
+        "x": 224,
+        "y": 5759.546875,
+        "width": 709.171875,
+        "height": 128,
+        "top": 5759.546875,
+        "right": 933.171875,
+        "bottom": 5887.546875,
+        "left": 224
+      }
+    },
+    {
+      "text": "Your questionsanswered.",
+      "css": "",
+      "rect": {
+        "x": 224,
+        "y": 6783.546875,
+        "width": 537.59375,
+        "height": 128,
+        "top": 6783.546875,
+        "right": 761.59375,
+        "bottom": 6911.546875,
+        "left": 224
+      }
+    },
+    {
+      "text": "From my blog,design insights.",
+      "css": "",
+      "rect": {
+        "x": 224,
+        "y": 7674.765625,
+        "width": 883.203125,
+        "height": 128,
+        "top": 7674.765625,
+        "right": 1107.203125,
+        "bottom": 7802.765625,
+        "left": 224
+      }
+    },
+    {
+      "text": "How designers and developers can actually collaborate.",
+      "css": "",
+      "rect": {
+        "x": 752,
+        "y": 8019.640625,
+        "width": 432,
+        "height": 73.59375,
+        "top": 8019.640625,
+        "right": 1184,
+        "bottom": 8093.234375,
+        "left": 752
+      }
+    },
+    {
+      "text": "Speak to meEmail or book a callContactBook a call",
+      "css": "",
+      "rect": {
+        "x": 598.640625,
+        "y": 1024,
+        "width": 242.71875,
+        "height": 64,
+        "top": 1024,
+        "right": 841.359375,
+        "bottom": 1088,
+        "left": 598.640625
+      }
+    },
+    {
+      "text": "Let’sdesignbuildcreateincredible work together.Emailjoseph@launchnow.designCall MeBook NowSocial1,21",
+      "css": "",
+      "rect": {
+        "x": 0,
+        "y": 8907.015625,
+        "width": 1440,
+        "height": 637.8125,
+        "top": 8907.015625,
+        "right": 1440,
+        "bottom": 9544.828125,
+        "left": 0
+      }
+    }
+  ]
+}

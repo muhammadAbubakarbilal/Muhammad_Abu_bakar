@@ -1,0 +1,60 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "file": "index.html"
+    },
+    {
+      "route": "/projects",
+      "file": "projects/index.html"
+    },
+    {
+      "route": "/blog",
+      "file": "blog/index.html"
+    },
+    {
+      "route": "/projects/personal-engineering-studio",
+      "file": "projects/essentia/index.html"
+    },
+    {
+      "route": "/projects/agency-lead-operations",
+      "file": "projects/quantum/index.html"
+    },
+    {
+      "route": "/projects/local-service-receptionist",
+      "file": "projects/orbital/index.html"
+    },
+    {
+      "route": "/projects/b2b-customer-onboarding",
+      "file": "projects/axiom/index.html"
+    },
+    {
+      "route": "/blog/how-to-identify-which-workflow-to-automate-first",
+      "file": "blog/how-designers-and-developers-can-actually-collaborate/index.html"
+    },
+    {
+      "route": "/blog/where-lead-follow-up-systems-break",
+      "file": "blog/why-faster-isn-t-always-better/index.html"
+    },
+    {
+      "route": "/blog/human-ai-automated-framework",
+      "file": "blog/designing-for-human-connection/index.html"
+    },
+    {
+      "route": "/terms",
+      "file": "terms/index.html"
+    },
+    {
+      "route": "/privacy-policy",
+      "file": "privacy-policy/index.html"
+    },
+    {
+      "route": "/blog/why-more-saas-means-more-spreadsheets",
+      "file": "blog/beyond-minimalism-what-s-next-in-web-design/index.html"
+    },
+    {
+      "route": "/blog/reliable-human-in-the-loop-ai",
+      "file": "blog/when-to-rebrand-signs-your-identity-is-holding-you-back/index.html"
+    }
+  ]
+}

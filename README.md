@@ -1,6 +1,8 @@
 # Muhammad ABU BAKAR — AI Systems & Automation Portfolio
 
-A modern, production-ready portfolio and business systems studio built with **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS**, and **Google Gemini API**.
+A personal engineering studio built with **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS**, and an optional **Google Gemini API** integration.
+
+The refactored site presents websites, AI assistants, automation and custom software through a shorter homepage and visual project studies. See the [local setup and verification guide](docs/local-development.md) for current configuration, contact delivery behavior and browser tests. The contact form prepares an email draft unless a delivery webhook is configured.
 
 ---
 

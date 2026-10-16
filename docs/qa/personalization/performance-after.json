@@ -1,0 +1,41 @@
+[
+  {
+    "domContentLoaded": 760.1000000238419,
+    "load": 949.7000000476837,
+    "longTaskMs": 2458,
+    "requests": 62,
+    "decodedBytes": 2191274,
+    "contentScript": [
+      {
+        "bytes": 102079,
+        "duration": 34.799999952316284
+      }
+    ]
+  },
+  {
+    "domContentLoaded": 1161.6999999284744,
+    "load": 2007.8999999761581,
+    "longTaskMs": 3440,
+    "requests": 62,
+    "decodedBytes": 2191274,
+    "contentScript": [
+      {
+        "bytes": 102079,
+        "duration": 64.29999995231628
+      }
+    ]
+  },
+  {
+    "domContentLoaded": 3204.100000023842,
+    "load": 3537.1999999284744,
+    "longTaskMs": 2077,
+    "requests": 62,
+    "decodedBytes": 2191274,
+    "contentScript": [
+      {
+        "bytes": 102079,
+        "duration": 165.70000004768372
+      }
+    ]
+  }
+]

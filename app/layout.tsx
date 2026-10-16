@@ -1,50 +1,79 @@
-import type { Metadata } from 'next';
-import './globals.css';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
-import { AiAssistantDrawer } from '@/components/AiAssistantDrawer';
-
+import type { Metadata } from "next";
+import Link from "next/link";
+import "./globals.css";
+import "./launchfolio.css";
+import "./spacing.css";
+import { LaunchMotion } from "@/components/LaunchMotion";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { AssistantLauncher } from "@/components/AssistantLauncher";
+import { site } from "@/lib/site";
+const description =
+  "I design professional websites and build AI assistants, CRM workflows, automation, and custom software to help businesses improve their digital operations.";
 export const metadata: Metadata = {
-  title: 'Muhammad Abu Bakar — AI Systems & Automation Engineer',
-  description: 'I design and build AI agents, automation workflows, custom software, websites, and connected business systems that remove repetitive work and improve how your business operates.',
-  icons: {
-    icon: [
-      { url: '/assets/svg/favicon.svg', type: 'image/svg+xml' },
-    ],
-    shortcut: '/assets/svg/favicon.svg',
-    apple: '/assets/svg/favicon.svg',
+  metadataBase: new URL(site.url),
+  title: {
+    default: `${site.name} — ${site.role}`,
+    template: `%s — ${site.name}`,
   },
+  description,
+  alternates: { canonical: "/" },
+  icons: { icon: "/assets/svg/favicon.svg" },
   openGraph: {
-    title: 'Muhammad Abu Bakar — AI Systems & Automation Engineer',
-    description: 'I start with the bottleneck — not the technology. I map how the work happens, decide what should stay human, what AI should assist with, and what can be automated.',
-    type: 'website',
+    title: `${site.name} — Websites, AI & Connected Systems`,
+    description,
+    type: "website",
+    images: [
+      {
+        url: "/assets/abu_bakar.jpg",
+        width: 912,
+        height: 1136,
+        alt: site.name,
+      },
+    ],
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Muhammad Abu Bakar — AI Systems & Automation Engineer',
-    description: 'Businesses don\'t always need more software. They often need less manual work.',
+    card: "summary_large_image",
+    title: `${site.name} — Websites, AI & Connected Systems`,
+    description,
+    images: ["/assets/abu_bakar.jpg"],
   },
 };
-
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <head>
-        <link rel="icon" href="/assets/svg/favicon.svg" type="image/svg+xml" />
-        <link rel="shortcut icon" href="/assets/svg/favicon.svg" />
-        <link rel="apple-touch-icon" href="/assets/svg/favicon.svg" />
+        <link
+          rel="preload"
+          href="/fonts/switzer-500.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
       </head>
-      <body className="bg-[#090b0e] text-zinc-100 min-h-screen flex flex-col font-sans antialiased selection:bg-amber-500 selection:text-zinc-950">
+      <body>
+        <a href="#main-content" className="skip-link">
+          Skip to content
+        </a>
         <Navbar />
-        <main className="flex-1 w-full flex flex-col">
+        <noscript>
+          <nav className="container no-script-nav" aria-label="Site navigation">
+            <Link href="/work">Work</Link>
+            <Link href="/systems">Services</Link>
+            <Link href="/about">About</Link>
+            <Link href="/contact">Contact</Link>
+          </nav>
+        </noscript>
+        <main id="main-content" tabIndex={-1}>
           {children}
         </main>
         <Footer />
-        <AiAssistantDrawer />
+        <AssistantLauncher />
+        <LaunchMotion />
       </body>
     </html>
   );

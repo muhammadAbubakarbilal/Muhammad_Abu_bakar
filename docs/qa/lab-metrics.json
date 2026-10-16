@@ -1,0 +1,17 @@
+{
+  "note": "Single local Chrome run, no CPU/network throttling. Not field Core Web Vitals or a Lighthouse score; INP was not measured.",
+  "samples": [
+    {
+      "width": 1440,
+      "lcp": 676,
+      "cls": 0,
+      "domContentLoaded": 188.39999997615814
+    },
+    {
+      "width": 390,
+      "lcp": 304,
+      "cls": 0,
+      "domContentLoaded": 60.89999997615814
+    }
+  ]
+}

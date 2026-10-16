@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import React, { useEffect } from 'react';
-import Link from 'next/link';
-import { AlertTriangle, RefreshCw, Home } from 'lucide-react';
+import React, { useEffect } from "react";
+import Link from "next/link";
+import { AlertTriangle, RefreshCw, Home } from "lucide-react";
 
 export default function Error({
   error,
@@ -12,20 +12,20 @@ export default function Error({
   reset: () => void;
 }) {
   useEffect(() => {
-    console.error('Runtime Application Error:', error);
+    console.error("Runtime Application Error:", error);
   }, [error]);
 
   return (
-    <div className="flex-1 flex flex-col items-center justify-center px-4 py-24 text-center max-w-2xl mx-auto">
-      <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-950/50 border border-red-800 text-xs font-mono text-red-400 mb-6">
+    <div className="flex-1 flex flex-col items-center justify-center px-4 py-12 sm:py-16 text-center max-w-2xl mx-auto">
+      <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-950/50 border border-red-800 text-xs font-mono text-red-400 mb-4">
         <AlertTriangle className="w-3.5 h-3.5" />
-        APPLICATION RUNTIME NOTICE
+        UNABLE TO LOAD THIS PAGE
       </div>
       <h1 className="text-3xl sm:text-4xl font-extrabold text-zinc-100 tracking-tight mb-4">
         Something unexpected occurred
       </h1>
-      <p className="text-zinc-400 text-sm sm:text-base mb-8 max-w-md">
-        An error occurred while loading this view. You can try reloading the component or navigating back to safety.
+      <p className="text-zinc-400 text-sm sm:text-base mb-6 max-w-md">
+        This page could not load. Try again or return to the homepage.
       </p>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <button
@@ -46,3 +46,4 @@ export default function Error({
     </div>
   );
 }
+

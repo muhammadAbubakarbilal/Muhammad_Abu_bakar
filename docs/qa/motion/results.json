@@ -1,0 +1,39 @@
+[
+  {
+    "reducedMotion": "no-preference",
+    "top": {
+      "project": "matrix(0.689365, 0.121554, -0.121554, 0.689365, 570.625, -764.844)",
+      "word": "Technology",
+      "ticker": "lf-marquee",
+      "overflow": false
+    },
+    "scrolled": {
+      "project": "matrix(1, 0, 0, 1, 0, 0)",
+      "word": "Technology",
+      "ticker": "lf-marquee",
+      "overflow": false
+    },
+    "routeCleanup": true,
+    "mobile": true,
+    "errors": []
+  },
+  {
+    "reducedMotion": "reduce",
+    "top": {
+      "project": "none",
+      "ticker": "none",
+      "overflow": false
+    },
+    "scrolled": {
+      "project": "none",
+      "ticker": "none",
+      "overflow": false
+    },
+    "routeCleanup": true,
+    "mobile": true,
+    "errors": []
+  },
+  {
+    "noJavaScript": true
+  }
+]

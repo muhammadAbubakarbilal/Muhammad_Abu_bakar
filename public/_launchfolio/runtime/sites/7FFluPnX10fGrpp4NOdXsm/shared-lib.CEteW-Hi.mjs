@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.Dh6celcD.mjs";function t(e,t){return{description:"I design professional websites and build AI assistants, CRM workflows, automation, and custom software to help businesses improve their digital operations.",favicon:`/_launchfolio/assets/d64690c8e19c01c0d776.svg`,robots:`max-image-preview:large`,socialImage:"/assets/portfolio/project-6.svg",title:"Muhammad Abu Bakar | Websites, AI & Business Systems"}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=shared-lib.CEteW-Hi.mjs.map

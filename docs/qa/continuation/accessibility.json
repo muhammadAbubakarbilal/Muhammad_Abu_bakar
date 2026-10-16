@@ -1,0 +1,84 @@
+{
+  "violations": [],
+  "malformedLinks": 0,
+  "reducedMotion": {
+    "text": "Websites, AI & systems. Built for business.",
+    "opacity": "1"
+  },
+  "noJavaScript": {
+    "text": "Websites, AI & systems. Built for business.",
+    "hiddenAncestors": []
+  },
+  "staticPages": [
+    {
+      "route": "/",
+      "heading": "Websites, AI & systems. Built for business.",
+      "overflow": false
+    },
+    {
+      "route": "/projects",
+      "heading": "Selected work",
+      "overflow": false
+    },
+    {
+      "route": "/blog",
+      "heading": "Practical insights",
+      "overflow": false
+    },
+    {
+      "route": "/projects/personal-engineering-studio",
+      "heading": "Personal Engineering Studio",
+      "overflow": false
+    },
+    {
+      "route": "/projects/agency-lead-operations",
+      "heading": "Agency Lead Operations",
+      "overflow": false
+    },
+    {
+      "route": "/projects/local-service-receptionist",
+      "heading": "AI Receptionist",
+      "overflow": false
+    },
+    {
+      "route": "/projects/b2b-customer-onboarding",
+      "heading": "Customer Onboarding",
+      "overflow": false
+    },
+    {
+      "route": "/blog/how-to-identify-which-workflow-to-automate-first",
+      "heading": "Choosing your first automation",
+      "overflow": false
+    },
+    {
+      "route": "/blog/where-lead-follow-up-systems-break",
+      "heading": "Where lead follow-up loses context",
+      "overflow": false
+    },
+    {
+      "route": "/blog/human-ai-automated-framework",
+      "heading": "People, AI and automation",
+      "overflow": false
+    },
+    {
+      "route": "/terms",
+      "heading": "Working together",
+      "overflow": false
+    },
+    {
+      "route": "/privacy-policy",
+      "heading": "Privacy and project inquiries",
+      "overflow": false
+    },
+    {
+      "route": "/blog/why-more-saas-means-more-spreadsheets",
+      "heading": "When more tools create more work",
+      "overflow": false
+    },
+    {
+      "route": "/blog/reliable-human-in-the-loop-ai",
+      "heading": "Designing a useful human handoff",
+      "overflow": false
+    }
+  ]
+}

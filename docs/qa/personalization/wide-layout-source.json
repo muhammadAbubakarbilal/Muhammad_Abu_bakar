@@ -1,0 +1,439 @@
+[
+  {
+    "route": "/",
+    "data": {
+      "containers": [
+        {
+          "cls": "framer-10ze9ym",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-19eao2h",
+          "name": "Happy Projects, Header, & Description",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-8knrt8",
+          "name": "Insider Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-4gugwl",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-1i2l836",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-1w972xw",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-rxatli",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-1asmloc",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-8e5163",
+          "name": "Insider Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-5ff2fu",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-7zs1j1",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-1mnuu41",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-uvcvyr",
+          "name": "Articles",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-qoxyj2",
+          "name": "Main Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-17mjsm2",
+          "name": "Border",
+          "max": "1080px"
+        }
+      ],
+      "headings": [
+        {
+          "cls": "framer-text framer-styles-preset-1s8fn6c",
+          "size": "72px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-4xe5jg",
+          "size": "64px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-4xe5jg",
+          "size": "64px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-4xe5jg",
+          "size": "64px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-4xe5jg",
+          "size": "64px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1nbpq7r",
+          "size": "32px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1nbpq7r",
+          "size": "32px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1nbpq7r",
+          "size": "32px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-4xe5jg",
+          "size": "64px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-4xe5jg",
+          "size": "64px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1nbpq7r",
+          "size": "32px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-4xe5jg",
+          "size": "64px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1v15im0",
+          "size": "32px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "/projects",
+    "data": {
+      "containers": [
+        {
+          "cls": "framer-1rlo542",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-1vphwn5",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-p08erm",
+          "name": "Insider Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-1n7wnsa",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-qoxyj2",
+          "name": "Main Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-17mjsm2",
+          "name": "Border",
+          "max": "1080px"
+        }
+      ],
+      "headings": [
+        {
+          "cls": "framer-text framer-styles-preset-1s8fn6c",
+          "size": "72px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1v15im0",
+          "size": "32px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "/blog",
+    "data": {
+      "containers": [
+        {
+          "cls": "framer-w8burm",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-15xhth",
+          "name": "Inside container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-qoxyj2",
+          "name": "Main Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-17mjsm2",
+          "name": "Border",
+          "max": "1080px"
+        }
+      ],
+      "headings": [
+        {
+          "cls": "framer-text framer-styles-preset-mss9k0",
+          "size": "48px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1v15im0",
+          "size": "32px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "/projects/personal-engineering-studio",
+    "data": {
+      "containers": [
+        {
+          "cls": "framer-1qyphv4",
+          "name": "Hero",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-wngpva",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-18b92qv",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-ou1ayz",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-j5d6w3",
+          "name": "Insider Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-19pcru4",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-qoxyj2",
+          "name": "Main Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-qoxyj2",
+          "name": "Main Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-qoxyj2",
+          "name": "Main Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-17mjsm2",
+          "name": "Border",
+          "max": "1080px"
+        }
+      ],
+      "headings": [
+        {
+          "cls": "framer-text framer-styles-preset-mss9k0",
+          "size": "48px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1v15im0",
+          "size": "32px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1v15im0",
+          "size": "32px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1v15im0",
+          "size": "32px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-4xe5jg",
+          "size": "64px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1v15im0",
+          "size": "32px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1v15im0",
+          "size": "32px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "/blog/human-ai-automated-framework",
+    "data": {
+      "containers": [
+        {
+          "cls": "framer-57zy3c",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-17fprhr",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-atishd",
+          "name": "Inside Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-qoxyj2",
+          "name": "Main Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-17mjsm2",
+          "name": "Border",
+          "max": "1080px"
+        }
+      ],
+      "headings": [
+        {
+          "cls": "framer-text framer-styles-preset-mss9k0",
+          "size": "48px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-1v15im0",
+          "size": "32px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-3qmsso",
+          "size": "24px"
+        },
+        {
+          "cls": "framer-text framer-styles-preset-4xe5jg",
+          "size": "64px"
+        }
+      ]
+    }
+  },
+  {
+    "route": "/terms",
+    "data": {
+      "containers": [
+        {
+          "cls": "framer-1xmshsx",
+          "name": "Terms",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-qoxyj2",
+          "name": "Main Container",
+          "max": "1080px"
+        },
+        {
+          "cls": "framer-17mjsm2",
+          "name": "Border",
+          "max": "1080px"
+        }
+      ],
+      "headings": [
+        {
+          "cls": "framer-text framer-styles-preset-1s8fn6c",
+          "size": "72px"
+        }
+      ]
+    }
+  }
+]

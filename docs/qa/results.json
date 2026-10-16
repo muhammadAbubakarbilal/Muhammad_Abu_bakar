@@ -1,0 +1,393 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/systems",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/process",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/faq",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/personal-engineering-studio",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/agency-lead-operations",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/local-service-receptionist",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/b2b-customer-onboarding",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/knowledge-intelligence-rag",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/multi-channel-crm-sync",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/custom-ops-portal",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/how-to-identify-which-workflow-to-automate-first",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/where-lead-follow-up-systems-break",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/human-ai-automated-framework",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/why-more-saas-means-more-spreadsheets",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/reliable-human-in-the-loop-ai",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/website-chatbot-crm-architecture",
+      "width": 1440,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/systems",
+      "width": 768,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work",
+      "width": 768,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/systems",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/process",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/faq",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/personal-engineering-studio",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/agency-lead-operations",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/local-service-receptionist",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/b2b-customer-onboarding",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/knowledge-intelligence-rag",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/multi-channel-crm-sync",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work/custom-ops-portal",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/how-to-identify-which-workflow-to-automate-first",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/where-lead-follow-up-systems-break",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/human-ai-automated-framework",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/why-more-saas-means-more-spreadsheets",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/reliable-human-in-the-loop-ai",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/insights/website-chatbot-crm-architecture",
+      "width": 390,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/contact",
+      "width": 320,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/systems",
+      "width": 320,
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "route": "/work",
+      "width": 320,
+      "status": 200,
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "route": "/",
+      "violations": []
+    },
+    {
+      "route": "/work",
+      "violations": []
+    },
+    {
+      "route": "/systems",
+      "violations": []
+    },
+    {
+      "route": "/about",
+      "violations": []
+    },
+    {
+      "route": "/contact",
+      "violations": []
+    },
+    {
+      "route": "/faq",
+      "violations": []
+    },
+    {
+      "route": "/work/agency-lead-operations",
+      "violations": []
+    }
+  ],
+  "interactions": [
+    "Mobile menu open, Escape, focus restoration and navigation",
+    "Diagram selection and replay",
+    "Assistant local reply, reset, Escape and focus restoration",
+    "Required field validation and accurate email draft; no message sent",
+    "API validation, missing-delivery response, honeypot, malformed JSON, 404, FAQ redirect, sitemap and robots",
+    "Essential homepage visible without JavaScript",
+    "Normal-motion introduction and replay completed"
+  ],
+  "browserErrors": [],
+  "links": [
+    "http://127.0.0.1:3201/#main-content",
+    "http://127.0.0.1:3201/",
+    "http://127.0.0.1:3201/work",
+    "http://127.0.0.1:3201/systems",
+    "http://127.0.0.1:3201/about",
+    "http://127.0.0.1:3201/contact",
+    "http://127.0.0.1:3201/#work",
+    "http://127.0.0.1:3201/work/personal-engineering-studio",
+    "http://127.0.0.1:3201/work/agency-lead-operations",
+    "http://127.0.0.1:3201/work/local-service-receptionist",
+    "http://127.0.0.1:3201/systems#websites",
+    "http://127.0.0.1:3201/systems#ai-chatbots-assistants",
+    "http://127.0.0.1:3201/systems#workflow-automation",
+    "http://127.0.0.1:3201/systems#custom-business-software",
+    "http://127.0.0.1:3201/process",
+    "http://127.0.0.1:3201/insights",
+    "http://127.0.0.1:3201/faq",
+    "http://127.0.0.1:3201/work#main-content",
+    "http://127.0.0.1:3201/work/b2b-customer-onboarding",
+    "http://127.0.0.1:3201/work/knowledge-intelligence-rag",
+    "http://127.0.0.1:3201/work/multi-channel-crm-sync",
+    "http://127.0.0.1:3201/work/custom-ops-portal",
+    "http://127.0.0.1:3201/systems#main-content",
+    "http://127.0.0.1:3201/about#main-content",
+    "http://127.0.0.1:3201/process#main-content",
+    "http://127.0.0.1:3201/contact#main-content",
+    "http://127.0.0.1:3201/faq#main-content",
+    "http://127.0.0.1:3201/insights#main-content",
+    "http://127.0.0.1:3201/insights/how-to-identify-which-workflow-to-automate-first",
+    "http://127.0.0.1:3201/insights/where-lead-follow-up-systems-break",
+    "http://127.0.0.1:3201/insights/human-ai-automated-framework",
+    "http://127.0.0.1:3201/insights/why-more-saas-means-more-spreadsheets",
+    "http://127.0.0.1:3201/insights/reliable-human-in-the-loop-ai",
+    "http://127.0.0.1:3201/insights/website-chatbot-crm-architecture",
+    "http://127.0.0.1:3201/work/personal-engineering-studio#main-content",
+    "http://127.0.0.1:3201/work/agency-lead-operations#main-content",
+    "http://127.0.0.1:3201/work/local-service-receptionist#main-content",
+    "http://127.0.0.1:3201/work/b2b-customer-onboarding#main-content",
+    "http://127.0.0.1:3201/work/knowledge-intelligence-rag#main-content",
+    "http://127.0.0.1:3201/work/multi-channel-crm-sync#main-content",
+    "http://127.0.0.1:3201/work/custom-ops-portal#main-content",
+    "http://127.0.0.1:3201/insights/how-to-identify-which-workflow-to-automate-first#main-content",
+    "http://127.0.0.1:3201/insights/where-lead-follow-up-systems-break#main-content",
+    "http://127.0.0.1:3201/insights/human-ai-automated-framework#main-content",
+    "http://127.0.0.1:3201/insights/why-more-saas-means-more-spreadsheets#main-content",
+    "http://127.0.0.1:3201/insights/reliable-human-in-the-loop-ai#main-content",
+    "http://127.0.0.1:3201/insights/website-chatbot-crm-architecture#main-content"
+  ]
+}

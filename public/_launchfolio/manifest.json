@@ -1,0 +1,64 @@
+{
+  "source": "https://launchfolio.framer.website",
+  "captured": "2026-10-14T18:32:10.747Z",
+  "pages": [
+    {
+      "route": "/",
+      "file": "index.html"
+    },
+    {
+      "route": "/projects",
+      "file": "projects/index.html"
+    },
+    {
+      "route": "/blog",
+      "file": "blog/index.html"
+    },
+    {
+      "route": "/projects/essentia",
+      "file": "projects/essentia/index.html"
+    },
+    {
+      "route": "/projects/quantum",
+      "file": "projects/quantum/index.html"
+    },
+    {
+      "route": "/projects/orbital",
+      "file": "projects/orbital/index.html"
+    },
+    {
+      "route": "/projects/axiom",
+      "file": "projects/axiom/index.html"
+    },
+    {
+      "route": "/blog/how-designers-and-developers-can-actually-collaborate",
+      "file": "blog/how-designers-and-developers-can-actually-collaborate/index.html"
+    },
+    {
+      "route": "/blog/why-faster-isn-t-always-better",
+      "file": "blog/why-faster-isn-t-always-better/index.html"
+    },
+    {
+      "route": "/blog/designing-for-human-connection",
+      "file": "blog/designing-for-human-connection/index.html"
+    },
+    {
+      "route": "/terms",
+      "file": "terms/index.html"
+    },
+    {
+      "route": "/privacy-policy",
+      "file": "privacy-policy/index.html"
+    },
+    {
+      "route": "/blog/beyond-minimalism-what-s-next-in-web-design",
+      "file": "blog/beyond-minimalism-what-s-next-in-web-design/index.html"
+    },
+    {
+      "route": "/blog/when-to-rebrand-signs-your-identity-is-holding-you-back",
+      "file": "blog/when-to-rebrand-signs-your-identity-is-holding-you-back/index.html"
+    }
+  ],
+  "resources": 277,
+  "failures": []
+}
